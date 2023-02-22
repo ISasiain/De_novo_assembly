@@ -23,6 +23,11 @@ conda create -n hifiasm;
 conda activate hifiasm;
 conda install -c bioconda hifiasm=0.18.7;
 
+conda create -n canu;
+conda activate canu;
+conda install -c conda-forge gnuplot=5.4.5;
+conda install -c bioconda canu=2.2;
+
 ```
 
 2. Download the required data from NCBI Sequence Reads Archive and store the data into a the Data directory, which is excluded from the git repository.
@@ -61,3 +66,13 @@ ls *.gfa | while read name; do newname=$(echo ${name} | sed 's/.gfa/.fasta/'); a
 ```
 
 >The time required for running the hifi assembler was 48 minutes and 47 seconds.
+
+6. Assembly using canu.
+```
+mkdir ../03_Canu;
+cd ../03_Canu;
+conda activate canu;
+gen_size=$(echo "scale=4; $(cat ../Data/long_reads.fastq | grep -v "^>" | tr -d "\n" | wc -m)/1000000000" | bc);
+time canu -p canu -d . -genomeSize=${gen_size}m -pacbio-hifi -maxThreads=10 ../Data/long_reads.fastq;
+```
+>The time required for running canu assembler was 12 minutes and 26 seconds.
