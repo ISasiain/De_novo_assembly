@@ -1,0 +1,25 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    hifiasm.asm.bp.hap1.p_ctg  canu.contigs  assembly  
+# contigs (>= 0 bp)         51                         71            25        
+# contigs (>= 1000 bp)      51                         71            25        
+# contigs (>= 5000 bp)      51                         71            24        
+# contigs (>= 10000 bp)     51                         62            23        
+# contigs (>= 25000 bp)     20                         18            16        
+# contigs (>= 50000 bp)     17                         17            16        
+Total length (>= 0 bp)      12737440                   12761983      12097206  
+Total length (>= 1000 bp)   12737440                   12761983      12097206  
+Total length (>= 5000 bp)   12737440                   12761983      12092418  
+Total length (>= 10000 bp)  12737440                   12677453      12086688  
+Total length (>= 25000 bp)  12204376                   12117472      11966642  
+Total length (>= 50000 bp)  12121907                   12070241      11966642  
+# contigs                   51                         71            25        
+Largest contig              1506376                    1506143       1497679   
+Total length                12737440                   12761983      12097206  
+Estimated reference length  2212586673                 2212586673    2212586673
+GC (%)                      38.42                      38.21         38.29     
+N50                         809047                     808696        902728    
+N75                         579659                     575296        681086    
+L50                         6                          6             6         
+L75                         11                         11            10        
+# N's per 100 kbp           0.00                       0.00          1.65      

@@ -28,7 +28,15 @@ conda activate canu;
 conda install -c conda-forge gnuplot=5.4.5;
 conda install -c bioconda canu=2.2;
 
+conda create -n flye;
+conda activate flye;
+conda install -c bioconda flye=2.9.1;
+
+conda create -n quast;
+conda activate quast;
+conda install -c bioconda quast=5.0.2;
 ```
+
 
 2. Download the required data from NCBI Sequence Reads Archive and store the data into a the Data directory, which is excluded from the git repository.
 
@@ -85,3 +93,11 @@ conda activate flye;
 time flye -t 10 --pacbio-hifi ../Data/long_reads.fastq --out-dir .;
 ```
 >The time required for running flye assembler was 20 minutes and 25 seconds.
+
+8. Getting the general quality statistics of the different assemblies using quast.
+```
+mkdir ../05_Qast;
+cd ../05_Quast;
+gen_size=$(cat ../Data/long_reads.fastq | grep -v "^>" | tr -d "\n" | wc -m);
+quast -o . -t 10 --est-ref-size ${gen_size} ../02_Hifiasm/hifiasm.asm.bp.hap1.p_ctg.fasta ../03_Canu/canu.contigs.fasta ../04_Flye/assembly.fasta;
+```
