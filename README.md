@@ -98,6 +98,6 @@ time flye -t 10 --pacbio-hifi ../Data/long_reads.fastq --out-dir .;
 ```
 mkdir ../05_Qast;
 cd ../05_Quast;
-gen_size=$(cat ../Data/long_reads.fastq | grep -v "^>" | tr -d "\n" | wc -m);
-quast -o . -t 10 --est-ref-size ${gen_size} ../02_Hifiasm/hifiasm.asm.bp.hap1.p_ctg.fasta ../03_Canu/canu.contigs.fasta ../04_Flye/assembly.fasta;
+gen_size=$(echo "scale=4; $(cat ../Data/long_reads.fastq | grep -v "^>" | tr -d "\n" | wc -m)/1000000" | bc);
+quast -o . -t 10 --est-ref-size 12730920 ../02_Hifiasm/hifiasm.asm.bp.hap1.p_ctg.fasta ../03_Canu/canu.contigs.fasta ../04_Flye/assembly.fasta;
 ```
