@@ -76,3 +76,12 @@ gen_size=$(echo "scale=4; $(cat ../Data/long_reads.fastq | grep -v "^>" | tr -d 
 time canu -p canu -d . -genomeSize=${gen_size}m -pacbio-hifi -maxThreads=10 ../Data/long_reads.fastq;
 ```
 >The time required for running canu assembler was 12 minutes and 26 seconds.
+
+7. Assembly using Flye.
+```
+mkdir ../04_Flye;
+cd ../04_Flye;
+conda activate flye;
+time flye -t 10 --pacbio-hifi ../Data/long_reads.fastq --out-dir .;
+```
+>The time required for running flye assembler was 20 minutes and 25 seconds.
