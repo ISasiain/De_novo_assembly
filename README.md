@@ -49,13 +49,15 @@ time fastqc ../Data/long_reads.fastq -o .;
 
 >The time required for running the fastqc program was 31,209 seconds.The per base sequence content shows that the nucleotide content becomes unstable at the end of the reads. Considering, that the amount of reads that exceed that number of bases is really low the observed results can be explained. The measured GC content of the reads suggests the presence of contaminant sequences.
 
-5. Assembly using hifiasm.
+5. Assembly using hifiasm. Fasta files were created from the .gfa files.
 
 ```bash
 mkdir ../02_Hifiasm;
 cd ../02_Hifiasm;
 conda activate hifiasm;
 time hifiasm ../Data/long_reads.fastq;
+
+ls *.gfa | while read name; do newname=$(echo ${name} | sed 's/.gfa/.fasta/'); awk '/^S/{print ">"$2"\n"$3}' ${name} > ${newname}; done;
 ```
 
 >The time required for running the hifi assembler was 48 minutes and 47 seconds.
