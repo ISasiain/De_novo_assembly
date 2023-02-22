@@ -12,6 +12,7 @@
 conda create -n De_novo;
 conda activate De_novo;
 conda install -c bioconda sra-tools=3.0.0;
+conda install -c bioconda fastqc=0.11.9;
 ```
 
 2. Download the required data from NCBI Sequence Reads Archive and store the data into a the Data directory, which is excluded from the git repository. 
@@ -23,5 +24,13 @@ fastq-dump SRR13577846;
 mv ./SRR13577846.fastq ./long_reads.fastq;
 
 cd ../;
-echo "Data/" > .gitignore
+echo "Data/" > .gitignore;
  ```
+
+3. Quality checking of the reads using FastQC.
+
+```bash
+mkdir 01_FastQC;
+cd 01_FastQC;
+fastqc ../Data/long_reads.fastq -o .;
+```
