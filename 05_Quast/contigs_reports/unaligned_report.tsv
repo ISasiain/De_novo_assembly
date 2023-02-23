@@ -1,0 +1,6 @@
+Assembly	hifiasm.asm.bp.p_ctg	canu.contigs	assembly
+# fully unaligned contigs	1	6	0
+Fully unaligned length	16066	73393	0
+# partially unaligned contigs	17	21	16
+Partially unaligned length	84775	99049	73594
+# N's	0	0	200

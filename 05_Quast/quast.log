@@ -1,4 +1,4 @@
-/home/inf-52-2022/miniconda3/envs/quast/bin/quast -o . -t 10 --est-ref-size 12730920 ../02_Hifiasm/hifiasm.asm.bp.hap1.p_ctg.fasta ../03_Canu/canu.contigs.fasta ../04_Flye/assembly.fasta
+/home/inf-52-2022/miniconda3/envs/quast/bin/quast -o . -t 10 -r ../Data/sac_cer_reference.fna ../02_Hifiasm/hifiasm.asm.bp.p_ctg.fasta ../03_Canu/canu.contigs.fasta ../04_Flye/assembly.fasta
 
 Version: 5.0.2
 
@@ -7,7 +7,7 @@ System information:
   Python version: 3.6.13
   CPUs number: 256
 
-Started: 2023-02-22 22:30:27
+Started: 2023-02-23 16:54:01
 
 Logging to /home/inf-52-2022/De_novo_assembly/05_Quast/quast.log
 NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
@@ -17,23 +17,27 @@ Main parameters:
   MODE: default, threads: 10, minimum contig length: 500, minimum alignment length: 65, \
   ambiguity: one, threshold for extensive misassembly size: 1000
 
+Reference:
+  /home/inf-52-2022/De_novo_assembly/Data/sac_cer_reference.fna ==> sac_cer_reference
+
 Contigs:
   Pre-processing...
-  1  ../02_Hifiasm/hifiasm.asm.bp.hap1.p_ctg.fasta ==> hifiasm.asm.bp.hap1.p_ctg
+  1  ../02_Hifiasm/hifiasm.asm.bp.p_ctg.fasta ==> hifiasm.asm.bp.p_ctg
   2  ../03_Canu/canu.contigs.fasta ==> canu.contigs
   3  ../04_Flye/assembly.fasta ==> assembly
 
-2023-02-22 22:30:28
+2023-02-23 16:54:03
 Running Basic statistics processor...
-  Estimated reference length = 12730920
+  Reference genome:
+    sac_cer_reference.fna, length = 12157105, num fragments = 17, GC % = 38.15
   Contig files: 
-    1  hifiasm.asm.bp.hap1.p_ctg
+    1  hifiasm.asm.bp.p_ctg
     2  canu.contigs
     3  assembly
   Calculating N50 and L50...
-    1  hifiasm.asm.bp.hap1.p_ctg, N50 = 809047, L50 = 6, Total length = 12737440, GC % = 38.42, # N's per 100 kbp =  0.00
-    2  canu.contigs, N50 = 808696, L50 = 6, Total length = 12761983, GC % = 38.21, # N's per 100 kbp =  0.00
-    3  assembly, N50 = 902728, L50 = 6, Total length = 12097206, GC % = 38.29, # N's per 100 kbp =  1.65
+    1  hifiasm.asm.bp.p_ctg, N50 = 809047, L50 = 6, Total length = 12730920, GC % = 38.44, # N's per 100 kbp =  0.00
+    2  canu.contigs, N50 = 778969, L50 = 7, Total length = 13150776, GC % = 37.83, # N's per 100 kbp =  0.00
+    3  assembly, N50 = 902771, L50 = 6, Total length = 12090146, GC % = 38.29, # N's per 100 kbp =  1.65
   Drawing Nx plot...
     saved to /home/inf-52-2022/De_novo_assembly/05_Quast/basic_stats/Nx_plot.pdf
   Drawing NGx plot...
@@ -42,24 +46,91 @@ Running Basic statistics processor...
     saved to /home/inf-52-2022/De_novo_assembly/05_Quast/basic_stats/cumulative_plot.pdf
   Drawing GC content plot...
     saved to /home/inf-52-2022/De_novo_assembly/05_Quast/basic_stats/GC_content_plot.pdf
-  Drawing hifiasm.asm.bp.hap1.p_ctg GC content plot...
-    saved to /home/inf-52-2022/De_novo_assembly/05_Quast/basic_stats/hifiasm.asm.bp.hap1.p_ctg_GC_content_plot.pdf
+  Drawing hifiasm.asm.bp.p_ctg GC content plot...
+    saved to /home/inf-52-2022/De_novo_assembly/05_Quast/basic_stats/hifiasm.asm.bp.p_ctg_GC_content_plot.pdf
   Drawing canu.contigs GC content plot...
     saved to /home/inf-52-2022/De_novo_assembly/05_Quast/basic_stats/canu.contigs_GC_content_plot.pdf
   Drawing assembly GC content plot...
     saved to /home/inf-52-2022/De_novo_assembly/05_Quast/basic_stats/assembly_GC_content_plot.pdf
 Done.
 
+2023-02-23 16:54:06
+Running Contig analyzer...
+  1  hifiasm.asm.bp.p_ctg
+  1  Logging to files /home/inf-52-2022/De_novo_assembly/05_Quast/contigs_reports/contigs_report_hifiasm-asm-bp-p_ctg.stdout and contigs_report_hifiasm-asm-bp-p_ctg.stderr...
+  3  assembly
+  2  canu.contigs
+  3  Logging to files /home/inf-52-2022/De_novo_assembly/05_Quast/contigs_reports/contigs_report_assembly.stdout and contigs_report_assembly.stderr...
+  2  Logging to files /home/inf-52-2022/De_novo_assembly/05_Quast/contigs_reports/contigs_report_canu-contigs.stdout and contigs_report_canu-contigs.stderr...
+  3  Aligning contigs to the reference
+  3  /home/inf-52-2022/miniconda3/envs/quast/lib/python3.6/site-packages/quast_libs/minimap2/minimap2 \
+     -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 3 quast_corrected_input/sac_cer_reference.fna \
+     quast_corrected_input/assembly.fasta > contigs_reports/minimap_output/assembly.coords_tmp \
+     2>> contigs_reports/contigs_report_assembly.stderr
+  2  Aligning contigs to the reference
+  1  Using existing alignments... 
+  2  /home/inf-52-2022/miniconda3/envs/quast/lib/python3.6/site-packages/quast_libs/minimap2/minimap2 \
+     -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s 65 -z 200 --mask-level 0.9 \
+     --min-occ 200 -g 2500 --score-N 2 --cs -t 3 quast_corrected_input/sac_cer_reference.fna \
+     quast_corrected_input/canu_contigs.fasta > contigs_reports/minimap_output/canu-contigs.coords_tmp \
+     2>> contigs_reports/contigs_report_canu-contigs.stderr
+  1  Analysis is finished.
+
+  3  Analysis is finished.
+
+  2  Analysis is finished.
+
+  Creating total report...
+    saved to /home/inf-52-2022/De_novo_assembly/05_Quast/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/inf-52-2022/De_novo_assembly/05_Quast/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/inf-52-2022/De_novo_assembly/05_Quast/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/inf-52-2022/De_novo_assembly/05_Quast/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/inf-52-2022/De_novo_assembly/05_Quast/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2023-02-23 16:54:14
+Running NA-NGA calculation...
+  1  hifiasm.asm.bp.p_ctg, Largest alignment = 843303, NA50 = 273893, NGA50 = 284119, LA50 = 13, LGA50 = 12
+  2  canu.contigs, Largest alignment = 843303, NA50 = 247983, NGA50 = 284116, LA50 = 14, LGA50 = 12
+  3  assembly, Largest alignment = 843303, NA50 = 284119, NGA50 = 284119, LA50 = 12, LGA50 = 12
+  Drawing cumulative plot...
+    saved to /home/inf-52-2022/De_novo_assembly/05_Quast/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/inf-52-2022/De_novo_assembly/05_Quast/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/inf-52-2022/De_novo_assembly/05_Quast/aligned_stats/NGAx_plot.pdf
+Done.
+
+2023-02-23 16:54:15
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  1  hifiasm.asm.bp.p_ctg
+  3  assembly
+  2  canu.contigs
+  3  Analysis is finished.
+  1  Analysis is finished.
+  2  Analysis is finished.
+  Drawing Genome fraction, % histogram...
+    saved to /home/inf-52-2022/De_novo_assembly/05_Quast/genome_stats/genome_fraction_histogram.pdf
+Done.
+
 NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
 
-2023-02-22 22:30:31
+2023-02-23 16:54:19
 Creating large visual summaries...
 This may take a while: press Ctrl-C to skip this step..
   1 of 2: Creating Icarus viewers...
   2 of 2: Creating PDF with all tables and plots...
 Done
 
-2023-02-22 22:30:32
+2023-02-23 16:54:21
 RESULTS:
   Text versions of total report are saved to /home/inf-52-2022/De_novo_assembly/05_Quast/report.txt, report.tsv, and report.tex
   Text versions of transposed total report are saved to /home/inf-52-2022/De_novo_assembly/05_Quast/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
@@ -68,8 +139,8 @@ RESULTS:
   Icarus (contig browser) is saved to /home/inf-52-2022/De_novo_assembly/05_Quast/icarus.html
   Log is saved to /home/inf-52-2022/De_novo_assembly/05_Quast/quast.log
 
-Finished: 2023-02-22 22:30:32
-Elapsed time: 0:00:04.519990
-NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+Finished: 2023-02-23 16:54:21
+Elapsed time: 0:00:20.064788
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
 
 Thank you for using QUAST!

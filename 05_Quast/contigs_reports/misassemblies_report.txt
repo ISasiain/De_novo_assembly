@@ -1,0 +1,23 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     hifiasm.asm.bp.p_ctg  canu.contigs  assembly
+# misassemblies              124                   114           87      
+  # contig misassemblies     124                   114           87      
+    # c. relocations         59                    39            28      
+    # c. translocations      65                    72            59      
+    # c. inversions          0                     3             0       
+  # scaffold misassemblies   0                     0             0       
+    # s. relocations         0                     0             0       
+    # s. translocations      0                     0             0       
+    # s. inversions          0                     0             0       
+# misassembled contigs       41                    38            19      
+Misassembled contigs length  12606913              12407888      12015914
+# local misassemblies        68                    356           79      
+# scaffold gap ext. mis.     0                     0             2       
+# scaffold gap loc. mis.     0                     0             0       
+# unaligned mis. contigs     0                     0             0       
+# mismatches                 26873                 29315         26173   
+# indels                     3220                  3829          2371    
+    # indels (<= 5 bp)       2728                  3092          1998    
+    # indels (> 5 bp)        492                   737           373     
+Indels length                15578                 21248         11642   

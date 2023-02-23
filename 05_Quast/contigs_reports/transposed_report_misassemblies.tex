@@ -1,0 +1,15 @@
+\documentclass[12pt,a4paper]{article}
+\begin{document}
+\begin{table}[ht]
+\begin{center}
+\caption{All statistics are based on contigs of size $\geq$ 500 bp, unless otherwise noted (e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}
+\begin{tabular}{|l*{20}{|r}|}
+\hline
+Assembly & \# misassemblies &   \# contig misassemblies &     \# c. relocations &     \# c. translocations &     \# c. inversions &   \# scaffold misassemblies &     \# s. relocations &     \# s. translocations &     \# s. inversions & \# misassembled contigs & Misassembled contigs length & \# local misassemblies & \# scaffold gap ext. mis. & \# scaffold gap loc. mis. & \# unaligned mis. contigs & \# mismatches & \# indels &     \# indels ($\leq$ 5 bp) &     \# indels ($>$ 5 bp) & Indels length \\ \hline
+hifiasm.asm.bp.p\_ctg & 124 & 124 & 59 & 65 & 0 & 0 & 0 & 0 & 0 & 41 & 12606913 & 68 & 0 & 0 & 0 & 26873 & 3220 & 2728 & 492 & 15578 \\ \hline
+canu.contigs & 114 & 114 & 39 & 72 & 3 & 0 & 0 & 0 & 0 & 38 & 12407888 & 356 & 0 & 0 & 0 & 29315 & 3829 & 3092 & 737 & 21248 \\ \hline
+assembly & 87 & 87 & 28 & 59 & 0 & 0 & 0 & 0 & 0 & 19 & 12015914 & 79 & 2 & 0 & 0 & 26173 & 2371 & 1998 & 373 & 11642 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+\end{document}

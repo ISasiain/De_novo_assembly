@@ -1,27 +1,51 @@
-Assembly	hifiasm.asm.bp.hap1.p_ctg	canu.contigs	assembly
-# contigs (>= 0 bp)	51	71	25
-# contigs (>= 1000 bp)	51	71	25
-# contigs (>= 5000 bp)	51	71	24
-# contigs (>= 10000 bp)	51	62	23
-# contigs (>= 25000 bp)	20	18	16
+Assembly	hifiasm.asm.bp.p_ctg	canu.contigs	assembly
+# contigs (>= 0 bp)	49	96	25
+# contigs (>= 1000 bp)	49	96	25
+# contigs (>= 5000 bp)	49	96	24
+# contigs (>= 10000 bp)	49	85	23
+# contigs (>= 25000 bp)	21	18	16
 # contigs (>= 50000 bp)	17	17	16
-Total length (>= 0 bp)	12737440	12761983	12097206
-Total length (>= 1000 bp)	12737440	12761983	12097206
-Total length (>= 5000 bp)	12737440	12761983	12092418
-Total length (>= 10000 bp)	12737440	12677453	12086688
-Total length (>= 25000 bp)	12204376	12117472	11966642
-Total length (>= 50000 bp)	12121907	12070241	11966642
-# contigs	51	71	25
-Largest contig	1506376	1506143	1497679
-Total length	12737440	12761983	12097206
-Estimated reference length	12730920	12730920	12730920
-GC (%)	38.42	38.21	38.29
-N50	809047	808696	902728
-NG50	809047	808696	902728
-N75	579659	575296	681086
-NG75	579659	575296	681086
-L50	6	6	6
+Total length (>= 0 bp)	12730920	13150776	12090146
+Total length (>= 1000 bp)	12730920	13150776	12090146
+Total length (>= 5000 bp)	12730920	13150776	12085358
+Total length (>= 10000 bp)	12730920	13047603	12079771
+Total length (>= 25000 bp)	12243602	12111163	11962685
+Total length (>= 50000 bp)	12121907	12083485	11962685
+# contigs	49	96	25
+Largest contig	1506376	1506339	1497679
+Total length	12730920	13150776	12090146
+Reference length	12157105	12157105	12157105
+GC (%)	38.44	37.83	38.29
+Reference GC (%)	38.15	38.15	38.15
+N50	809047	778969	902771
+NG50	809047	808829	902771
+N75	579659	564190	681019
+NG75	609882	610214	681019
+L50	6	7	6
 LG50	6	6	6
-L75	11	11	10
-LG75	11	11	10
+L75	11	12	10
+LG75	10	10	10
+# misassemblies	124	114	87
+# misassembled contigs	41	38	19
+Misassembled contigs length	12606913	12407888	12015914
+# local misassemblies	68	356	79
+# scaffold gap ext. mis.	0	0	2
+# scaffold gap loc. mis.	0	0	0
+# unaligned mis. contigs	0	0	0
+# unaligned contigs	1 + 17 part	6 + 21 part	0 + 16 part
+Unaligned length	100841	172442	73594
+Genome fraction (%)	97.496	97.560	97.063
+Duplication ratio	1.066	1.094	1.018
 # N's per 100 kbp	0.00	0.00	1.65
+# mismatches per 100 kbp	226.72	247.17	221.80
+# indels per 100 kbp	27.17	32.28	20.09
+Largest alignment	843303	843303	843303
+Total aligned length	12617941	12959506	12002412
+NA50	273893	247983	284119
+NGA50	284119	284116	284119
+NA75	137797	127396	165509
+NGA75	168184	168185	162182
+LA50	13	14	12
+LGA50	12	12	12
+LA75	29	32	26
+LGA75	26	26	27

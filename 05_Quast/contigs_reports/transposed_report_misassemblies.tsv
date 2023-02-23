@@ -1,0 +1,4 @@
+Assembly	# misassemblies	  # contig misassemblies	    # c. relocations	    # c. translocations	    # c. inversions	  # scaffold misassemblies	    # s. relocations	    # s. translocations	    # s. inversions	# misassembled contigs	Misassembled contigs length	# local misassemblies	# scaffold gap ext. mis.	# scaffold gap loc. mis.	# unaligned mis. contigs	# mismatches	# indels	    # indels (<= 5 bp)	    # indels (> 5 bp)	Indels length
+hifiasm.asm.bp.p_ctg	124	124	59	65	0	0	0	0	0	41	12606913	68	0	0	0	26873	3220	2728	492	15578
+canu.contigs	114	114	39	72	3	0	0	0	0	38	12407888	356	0	0	0	29315	3829	3092	737	21248
+assembly	87	87	28	59	0	0	0	0	0	19	12015914	79	2	0	0	26173	2371	1998	373	11642
