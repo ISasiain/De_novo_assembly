@@ -68,20 +68,19 @@ time fastqc ../Data/long_reads.fastq -o .;
 mkdir ../02_Hifiasm;
 cd ../02_Hifiasm;
 conda activate hifiasm;
-time hifiasm ../Data/long_reads.fastq;
+time hifiasm -t 128 ../Data/long_reads.fastq;
 
 ls *.gfa | while read name; do newname=$(echo ${name} | sed 's/.gfa/.fasta/'); awk '/^S/{print ">"$2"\n"$3}' ${name} > ${newname}; done;
 ```
 
 >The time required for running the hifi assembler was 48 minutes and 47 seconds.
 
-6. Assembly using canu.
+6. Assembly using canu. The approximate genome size was assumed to be 12 Mb.
 ```
 mkdir ../03_Canu;
 cd ../03_Canu;
 conda activate canu;
-gen_size=$(echo "scale=4; $(cat ../Data/long_reads.fastq | grep -v "^>" | tr -d "\n" | wc -m)/1000000000" | bc);
-time canu -p canu -d . -genomeSize=${gen_size}m -pacbio-hifi -maxThreads=10 ../Data/long_reads.fastq;
+time canu -p canu -d . -genomeSize=12m -pacbio-hifi -maxThreads=10 ../Data/long_reads.fastq;
 ```
 >The time required for running canu assembler was 12 minutes and 26 seconds.
 
@@ -94,10 +93,15 @@ time flye -t 10 --pacbio-hifi ../Data/long_reads.fastq --out-dir .;
 ```
 >The time required for running flye assembler was 20 minutes and 25 seconds.
 
-8. Getting the general quality statistics of the different assemblies using quast.
+8. Getting the general quality statistics of the different assemblies using quast. The statistics were calculated using a Saccharomyces cerevisiae reference genome
 ```
+cd ../Data;
+wget https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/146/045/GCF_000146045.2_R64/GCF_000146045.2_R64_genomic.fna.gz;
+gunzip GCF_000146045.2_R64_genomic.fna.gz;
+mv ./GCF_000146045.2_R64_genomic.fna ./sac_cer_reference.fna;
+
 mkdir ../05_Qast;
 cd ../05_Quast;
-gen_size=$(echo "scale=4; $(cat ../Data/long_reads.fastq | grep -v "^>" | tr -d "\n" | wc -m)/1000000" | bc);
-quast -o . -t 10 --est-ref-size 12730920 ../02_Hifiasm/hifiasm.asm.bp.hap1.p_ctg.fasta ../03_Canu/canu.contigs.fasta ../04_Flye/assembly.fasta;
+conda activate quast;
+quast -o . -t 10 -r ../Data/sac_cer_reference.fna ../02_Hifiasm/hifiasm.asm.bp.p_ctg.fasta ../03_Canu/canu.contigs.fasta ../04_Flye/assembly.fasta;
 ```
