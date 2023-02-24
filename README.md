@@ -154,9 +154,11 @@ busco -c 10 -i ./fasta_to_analyse -l saccharomycetes_odb10 -o output -m genome;
 ```
 ## RESULTS AND DISCUSSION
 
+The results of using different assembly software show significant differences in the total number of contigs, as well as in the total length of all contigs and the N50 value. One possible reason for such differences is the removal of very short contigs, which some assemblers do. Based on the obtained results, it can be concluded that Canu removes the least short contigs while Flye removes the most. As a result, there is a difference of 1,000,000 bps in the total length of the assemblies performed by these software  and the N50 value is significantly higher in Flye, as it depends on the total length. The removal of short contigs by Hifiasm falls in the middle range between the two previously mentioned software.
 
+Regarding the BSUSCO statistics, all the assemblers produced exactly the same values.
 
-| Assembler | Running time | Contigs | Quast:  Largest contig | Quast:  Total length | Quast: N50 | Quast: NG50 | Quast: Missasembles | BUSCO: Complete genes | BUSCO: Fragmented genes | BUSCO: Missing genes | BUSCO: Total genes |
+| Assembler | Running time | Quast: Contigs | Quast:  Largest contig | Quast:  Total length | Quast: N50 | Quast: NG50 | Quast: Missasembles | BUSCO: Complete genes | BUSCO: Fragmented genes | BUSCO: Missing genes | BUSCO: Total genes |
 |-----------|--------------|---------|------------------------|----------------------|------------|-------------|---------------------|-----------------------|-------------------------|----------------------|--------------------|
 | Hifiasm   | 48min 47sec  |      49 |                1506376 |             12730920 |     809047 |      809047 |                 124 |                  2129 |                       2 |                    6 |               2137 |
 | Canu      | 12min 26sec  |      96 |                1506339 |             13150776 |     778969 |      808829 |                 114 |                  2129 |                       2 |                    6 |               2137 |
