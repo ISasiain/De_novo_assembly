@@ -1,0 +1,16 @@
+#                                                                                  --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name              accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#      ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ptg000005l:1417675-1418118 -            148 37925at4891          -            126     1e-70  232.7   9.9   1   1   9.5e-73   8.5e-70  229.7   9.9     1   126    10   145    10   145 0.95 -
+ptg000009l:103151-103528   -            126 37925at4891          -            126   3.3e-24   82.4   0.0   1   1   4.1e-27   3.7e-24   82.3   0.0    12   109     6   103     1   120 0.92 -
+ptg000011l:1023660-1024088 -            143 37925at4891          -            126   7.7e-06   23.1   0.2   1   1     1e-08   9.3e-06   22.8   0.2    27    96    28   100    14   130 0.84 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-52-2022/De_novo_assembly/06_Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/37925at4891.hmm
+# Target file:     /home/inf-52-2022/De_novo_assembly/06_Busco/output/hifiasm.asm.bp.p_ctg.fasta/run_saccharomycetes_odb10/metaeuk_output/initial_results/hifiasm.asm.bp.p_ctg.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/inf-52-2022/De_novo_assembly/06_Busco/output/hifiasm.asm.bp.p_ctg.fasta/run_saccharomycetes_odb10/hmmer_output/initial_run_results/37925at4891.out --cpu 1 /home/inf-52-2022/De_novo_assembly/06_Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/37925at4891.hmm /home/inf-52-2022/De_novo_assembly/06_Busco/output/hifiasm.asm.bp.p_ctg.fasta/run_saccharomycetes_odb10/metaeuk_output/initial_results/hifiasm.asm.bp.p_ctg.fasta.modified.fas 
+# Current dir:     /home/inf-52-2022/De_novo_assembly/06_Busco
+# Date:            Fri Feb 24 09:22:41 2023
+# [ok]

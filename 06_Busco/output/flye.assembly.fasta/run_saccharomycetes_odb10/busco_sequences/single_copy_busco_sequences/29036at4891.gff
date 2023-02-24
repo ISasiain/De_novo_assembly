@@ -1,0 +1,4 @@
+contig_34	MetaEuk	gene	75190	76071	377	-	.	Target_ID=29036at4891_2;TCS_ID=29036at4891_2|contig_34|-|75189
+contig_34	MetaEuk	mRNA	75190	76071	377	-	.	Target_ID=29036at4891_2;TCS_ID=29036at4891_2|contig_34|-|75189_mRNA;Parent=29036at4891_2|contig_34|-|75189
+contig_34	MetaEuk	exon	75190	76071	377	-	.	Target_ID=29036at4891_2;TCS_ID=29036at4891_2|contig_34|-|75189_exon_0;Parent=29036at4891_2|contig_34|-|75189_mRNA
+contig_34	MetaEuk	CDS	75190	76071	377	-	.	Target_ID=29036at4891_2;TCS_ID=29036at4891_2|contig_34|-|75189_CDS_0;Parent=29036at4891_2|contig_34|-|75189_exon_0

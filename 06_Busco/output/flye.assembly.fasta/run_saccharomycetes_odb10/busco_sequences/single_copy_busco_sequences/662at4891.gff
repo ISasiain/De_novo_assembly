@@ -1,0 +1,4 @@
+contig_10	MetaEuk	gene	30111	36074	1895	-	.	Target_ID=662at4891_6;TCS_ID=662at4891_6|contig_10|-|30110
+contig_10	MetaEuk	mRNA	30111	36074	1895	-	.	Target_ID=662at4891_6;TCS_ID=662at4891_6|contig_10|-|30110_mRNA;Parent=662at4891_6|contig_10|-|30110
+contig_10	MetaEuk	exon	30111	36074	1895	-	.	Target_ID=662at4891_6;TCS_ID=662at4891_6|contig_10|-|30110_exon_0;Parent=662at4891_6|contig_10|-|30110_mRNA
+contig_10	MetaEuk	CDS	30111	36074	1895	-	.	Target_ID=662at4891_6;TCS_ID=662at4891_6|contig_10|-|30110_CDS_0;Parent=662at4891_6|contig_10|-|30110_exon_0

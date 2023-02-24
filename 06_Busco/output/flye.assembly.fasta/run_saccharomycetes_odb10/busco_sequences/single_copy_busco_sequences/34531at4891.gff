@@ -1,0 +1,4 @@
+contig_16	MetaEuk	gene	790804	791466	315	-	.	Target_ID=34531at4891_2;TCS_ID=34531at4891_2|contig_16|-|790803
+contig_16	MetaEuk	mRNA	790804	791466	315	-	.	Target_ID=34531at4891_2;TCS_ID=34531at4891_2|contig_16|-|790803_mRNA;Parent=34531at4891_2|contig_16|-|790803
+contig_16	MetaEuk	exon	790804	791466	315	-	.	Target_ID=34531at4891_2;TCS_ID=34531at4891_2|contig_16|-|790803_exon_0;Parent=34531at4891_2|contig_16|-|790803_mRNA
+contig_16	MetaEuk	CDS	790804	791466	315	-	.	Target_ID=34531at4891_2;TCS_ID=34531at4891_2|contig_16|-|790803_CDS_0;Parent=34531at4891_2|contig_16|-|790803_exon_0

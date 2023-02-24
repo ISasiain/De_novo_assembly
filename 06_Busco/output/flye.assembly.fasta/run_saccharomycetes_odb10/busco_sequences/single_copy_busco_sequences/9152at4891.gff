@@ -1,0 +1,4 @@
+contig_2	MetaEuk	gene	770069	771724	892	-	.	Target_ID=9152at4891_2;TCS_ID=9152at4891_2|contig_2|-|770068
+contig_2	MetaEuk	mRNA	770069	771724	892	-	.	Target_ID=9152at4891_2;TCS_ID=9152at4891_2|contig_2|-|770068_mRNA;Parent=9152at4891_2|contig_2|-|770068
+contig_2	MetaEuk	exon	770069	771724	892	-	.	Target_ID=9152at4891_2;TCS_ID=9152at4891_2|contig_2|-|770068_exon_0;Parent=9152at4891_2|contig_2|-|770068_mRNA
+contig_2	MetaEuk	CDS	770069	771724	892	-	.	Target_ID=9152at4891_2;TCS_ID=9152at4891_2|contig_2|-|770068_CDS_0;Parent=9152at4891_2|contig_2|-|770068_exon_0

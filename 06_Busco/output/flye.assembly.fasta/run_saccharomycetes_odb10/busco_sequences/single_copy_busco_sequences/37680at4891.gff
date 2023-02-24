@@ -1,0 +1,4 @@
+contig_10	MetaEuk	gene	95094	95372	177	+	.	Target_ID=37680at4891_2;TCS_ID=37680at4891_2|contig_10|+|95093
+contig_10	MetaEuk	mRNA	95094	95372	177	+	.	Target_ID=37680at4891_2;TCS_ID=37680at4891_2|contig_10|+|95093_mRNA;Parent=37680at4891_2|contig_10|+|95093
+contig_10	MetaEuk	exon	95094	95372	177	+	.	Target_ID=37680at4891_2;TCS_ID=37680at4891_2|contig_10|+|95093_exon_0;Parent=37680at4891_2|contig_10|+|95093_mRNA
+contig_10	MetaEuk	CDS	95094	95372	177	+	.	Target_ID=37680at4891_2;TCS_ID=37680at4891_2|contig_10|+|95093_CDS_0;Parent=37680at4891_2|contig_10|+|95093_exon_0

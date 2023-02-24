@@ -1,0 +1,4 @@
+contig_21	MetaEuk	gene	85075	86646	656	-	.	Target_ID=16954at4891;TCS_ID=16954at4891|contig_21|-|85074
+contig_21	MetaEuk	mRNA	85075	86646	656	-	.	Target_ID=16954at4891;TCS_ID=16954at4891|contig_21|-|85074_mRNA;Parent=16954at4891|contig_21|-|85074
+contig_21	MetaEuk	exon	85075	86646	656	-	.	Target_ID=16954at4891;TCS_ID=16954at4891|contig_21|-|85074_exon_0;Parent=16954at4891|contig_21|-|85074_mRNA
+contig_21	MetaEuk	CDS	85075	86646	656	-	.	Target_ID=16954at4891;TCS_ID=16954at4891|contig_21|-|85074_CDS_0;Parent=16954at4891|contig_21|-|85074_exon_0

@@ -1,0 +1,8 @@
+contig_38	MetaEuk	gene	204903	205721	63	+	.	Target_ID=6943at4891_1;TCS_ID=6943at4891_1|contig_38|+|204902
+contig_38	MetaEuk	mRNA	204903	205721	63	+	.	Target_ID=6943at4891_1;TCS_ID=6943at4891_1|contig_38|+|204902_mRNA;Parent=6943at4891_1|contig_38|+|204902
+contig_38	MetaEuk	exon	204903	205721	63	+	.	Target_ID=6943at4891_1;TCS_ID=6943at4891_1|contig_38|+|204902_exon_0;Parent=6943at4891_1|contig_38|+|204902_mRNA
+contig_38	MetaEuk	CDS	204903	205721	63	+	.	Target_ID=6943at4891_1;TCS_ID=6943at4891_1|contig_38|+|204902_CDS_0;Parent=6943at4891_1|contig_38|+|204902_exon_0
+scaffold_37	MetaEuk	gene	112990	114444	794	+	.	Target_ID=6943at4891_4;TCS_ID=6943at4891_4|scaffold_37|+|112989
+scaffold_37	MetaEuk	mRNA	112990	114444	794	+	.	Target_ID=6943at4891_4;TCS_ID=6943at4891_4|scaffold_37|+|112989_mRNA;Parent=6943at4891_4|scaffold_37|+|112989
+scaffold_37	MetaEuk	exon	112990	114444	794	+	.	Target_ID=6943at4891_4;TCS_ID=6943at4891_4|scaffold_37|+|112989_exon_0;Parent=6943at4891_4|scaffold_37|+|112989_mRNA
+scaffold_37	MetaEuk	CDS	112990	114444	794	+	.	Target_ID=6943at4891_4;TCS_ID=6943at4891_4|scaffold_37|+|112989_CDS_0;Parent=6943at4891_4|scaffold_37|+|112989_exon_0

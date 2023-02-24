@@ -1,0 +1,4 @@
+contig_12	MetaEuk	gene	107453	108601	498	-	.	Target_ID=28072at4891_2;TCS_ID=28072at4891_2|contig_12|-|107452
+contig_12	MetaEuk	mRNA	107453	108601	498	-	.	Target_ID=28072at4891_2;TCS_ID=28072at4891_2|contig_12|-|107452_mRNA;Parent=28072at4891_2|contig_12|-|107452
+contig_12	MetaEuk	exon	107453	108601	498	-	.	Target_ID=28072at4891_2;TCS_ID=28072at4891_2|contig_12|-|107452_exon_0;Parent=28072at4891_2|contig_12|-|107452_mRNA
+contig_12	MetaEuk	CDS	107453	108601	498	-	.	Target_ID=28072at4891_2;TCS_ID=28072at4891_2|contig_12|-|107452_CDS_0;Parent=28072at4891_2|contig_12|-|107452_exon_0

@@ -1,0 +1,8 @@
+contig_10	MetaEuk	gene	325685	328903	1827	+	.	Target_ID=2020at4891_2;TCS_ID=2020at4891_2|contig_10|+|325684
+contig_10	MetaEuk	mRNA	325685	328903	1827	+	.	Target_ID=2020at4891_2;TCS_ID=2020at4891_2|contig_10|+|325684_mRNA;Parent=2020at4891_2|contig_10|+|325684
+contig_10	MetaEuk	exon	325685	328903	1827	+	.	Target_ID=2020at4891_2;TCS_ID=2020at4891_2|contig_10|+|325684_exon_0;Parent=2020at4891_2|contig_10|+|325684_mRNA
+contig_10	MetaEuk	CDS	325685	328903	1827	+	.	Target_ID=2020at4891_2;TCS_ID=2020at4891_2|contig_10|+|325684_CDS_0;Parent=2020at4891_2|contig_10|+|325684_exon_0
+contig_12	MetaEuk	gene	49136	50722	100	+	.	Target_ID=2020at4891_0;TCS_ID=2020at4891_0|contig_12|+|49135
+contig_12	MetaEuk	mRNA	49136	50722	100	+	.	Target_ID=2020at4891_0;TCS_ID=2020at4891_0|contig_12|+|49135_mRNA;Parent=2020at4891_0|contig_12|+|49135
+contig_12	MetaEuk	exon	49136	50722	100	+	.	Target_ID=2020at4891_0;TCS_ID=2020at4891_0|contig_12|+|49135_exon_0;Parent=2020at4891_0|contig_12|+|49135_mRNA
+contig_12	MetaEuk	CDS	49136	50722	100	+	.	Target_ID=2020at4891_0;TCS_ID=2020at4891_0|contig_12|+|49135_CDS_0;Parent=2020at4891_0|contig_12|+|49135_exon_0

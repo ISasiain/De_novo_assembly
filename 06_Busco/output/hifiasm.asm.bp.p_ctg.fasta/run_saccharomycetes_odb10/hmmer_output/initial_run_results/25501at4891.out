@@ -1,0 +1,17 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+ptg000008l:224298-226499 -            734 25501at4891          -            337  2.1e-114  379.3  41.5   1   4   9.5e-27   2.5e-23   79.9   1.9     1    65    98   165    98   179 0.90 -
+ptg000008l:224298-226499 -            734 25501at4891          -            337  2.1e-114  379.3  41.5   2   4   5.7e-83   1.5e-79  264.7  28.9    55   268   300   573   293   605 0.83 -
+ptg000008l:224298-226499 -            734 25501at4891          -            337  2.1e-114  379.3  41.5   3   4   6.8e-07    0.0018   14.6   0.0   269   296   613   641   598   648 0.80 -
+ptg000008l:224298-226499 -            734 25501at4891          -            337  2.1e-114  379.3  41.5   4   4   4.6e-06     0.012   11.9   0.0   289   335   673   725   642   727 0.83 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-52-2022/De_novo_assembly/06_Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/25501at4891.hmm
+# Target file:     /home/inf-52-2022/De_novo_assembly/06_Busco/output/hifiasm.asm.bp.p_ctg.fasta/run_saccharomycetes_odb10/metaeuk_output/initial_results/hifiasm.asm.bp.p_ctg.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/inf-52-2022/De_novo_assembly/06_Busco/output/hifiasm.asm.bp.p_ctg.fasta/run_saccharomycetes_odb10/hmmer_output/initial_run_results/25501at4891.out --cpu 1 /home/inf-52-2022/De_novo_assembly/06_Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/25501at4891.hmm /home/inf-52-2022/De_novo_assembly/06_Busco/output/hifiasm.asm.bp.p_ctg.fasta/run_saccharomycetes_odb10/metaeuk_output/initial_results/hifiasm.asm.bp.p_ctg.fasta.modified.fas 
+# Current dir:     /home/inf-52-2022/De_novo_assembly/06_Busco
+# Date:            Fri Feb 24 09:22:41 2023
+# [ok]

@@ -1,0 +1,4 @@
+contig_10	MetaEuk	gene	174202	175323	579	-	.	Target_ID=9816at4891_2;TCS_ID=9816at4891_2|contig_10|-|174201
+contig_10	MetaEuk	mRNA	174202	175323	579	-	.	Target_ID=9816at4891_2;TCS_ID=9816at4891_2|contig_10|-|174201_mRNA;Parent=9816at4891_2|contig_10|-|174201
+contig_10	MetaEuk	exon	174202	175323	579	-	.	Target_ID=9816at4891_2;TCS_ID=9816at4891_2|contig_10|-|174201_exon_0;Parent=9816at4891_2|contig_10|-|174201_mRNA
+contig_10	MetaEuk	CDS	174202	175323	579	-	.	Target_ID=9816at4891_2;TCS_ID=9816at4891_2|contig_10|-|174201_CDS_0;Parent=9816at4891_2|contig_10|-|174201_exon_0

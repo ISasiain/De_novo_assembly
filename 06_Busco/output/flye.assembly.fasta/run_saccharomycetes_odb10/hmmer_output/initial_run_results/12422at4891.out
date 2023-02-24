@@ -1,0 +1,25 @@
+#                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold_37:693969-695300 -            444 12422at4891          -            384  2.2e-210  695.9   3.3   1   2  9.3e-176  4.2e-173  573.2   0.4     1   317     1   351     1   360 0.95 -
+scaffold_37:693969-695300 -            444 12422at4891          -            384  2.2e-210  695.9   3.3   2   2   3.6e-39   1.6e-36  123.6   0.2   314   384   366   436   361   436 0.97 -
+contig_4:88122-89303      -            394 12422at4891          -            384   5.7e-55  184.3   0.4   1   2   7.7e-35   3.5e-32  109.3   0.5    42   200    46   222     5   229 0.79 -
+contig_4:88122-89303      -            394 12422at4891          -            384   5.7e-55  184.3   0.4   2   2   6.4e-24   2.8e-21   73.4   0.0   236   384   227   390   224   390 0.83 -
+scaffold_25:944491-945681 -            397 12422at4891          -            384   2.7e-31  106.4   0.0   1   2   3.9e-20   1.7e-17   60.9   0.0    33   198    27   222     1   226 0.71 -
+scaffold_25:944491-945681 -            397 12422at4891          -            384   2.7e-31  106.4   0.0   2   2   7.2e-15   3.2e-12   43.6   0.0   241   380   235   394   226   397 0.81 -
+contig_34:335933-337066   -            378 12422at4891          -            384   3.6e-27   92.8   0.4   1   2   2.2e-22   9.6e-20   68.4   0.0    14   199    26   221    15   231 0.84 -
+contig_34:335933-337066   -            378 12422at4891          -            384   3.6e-27   92.8   0.4   2   2   8.4e-08   3.8e-05   20.4   0.2   243   383   235   377   224   378 0.73 -
+contig_3:260833-261831    -            333 12422at4891          -            384   1.9e-21   74.0   0.0   1   2   6.7e-18     3e-15   53.6   0.0    40   194    43   213    19   222 0.82 -
+contig_3:260833-261831    -            333 12422at4891          -            384   1.9e-21   74.0   0.0   2   2   3.1e-07   0.00014   18.5   0.0   254   314   242   305   223   308 0.86 -
+contig_10:660301-661053   -            251 12422at4891          -            384   2.6e-11   40.6   0.0   1   2   3.6e-08   1.6e-05   21.5   0.0   130   220     1    92     1   106 0.78 -
+contig_10:660301-661053   -            251 12422at4891          -            384   2.6e-11   40.6   0.0   2   2   6.6e-07   0.00029   17.4   0.0   283   383   138   247   114   248 0.73 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-52-2022/De_novo_assembly/06_Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/12422at4891.hmm
+# Target file:     /home/inf-52-2022/De_novo_assembly/06_Busco/output/flye.assembly.fasta/run_saccharomycetes_odb10/metaeuk_output/initial_results/flye.assembly.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/inf-52-2022/De_novo_assembly/06_Busco/output/flye.assembly.fasta/run_saccharomycetes_odb10/hmmer_output/initial_run_results/12422at4891.out --cpu 1 /home/inf-52-2022/De_novo_assembly/06_Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/12422at4891.hmm /home/inf-52-2022/De_novo_assembly/06_Busco/output/flye.assembly.fasta/run_saccharomycetes_odb10/metaeuk_output/initial_results/flye.assembly.fasta.modified.fas 
+# Current dir:     /home/inf-52-2022/De_novo_assembly/06_Busco
+# Date:            Fri Feb 24 09:20:54 2023
+# [ok]

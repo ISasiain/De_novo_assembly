@@ -1,0 +1,4 @@
+contig_16	MetaEuk	gene	139021	139413	163	-	.	Target_ID=39731at4891_4;TCS_ID=39731at4891_4|contig_16|-|139020
+contig_16	MetaEuk	mRNA	139021	139413	163	-	.	Target_ID=39731at4891_4;TCS_ID=39731at4891_4|contig_16|-|139020_mRNA;Parent=39731at4891_4|contig_16|-|139020
+contig_16	MetaEuk	exon	139021	139413	163	-	.	Target_ID=39731at4891_4;TCS_ID=39731at4891_4|contig_16|-|139020_exon_0;Parent=39731at4891_4|contig_16|-|139020_mRNA
+contig_16	MetaEuk	CDS	139021	139413	163	-	.	Target_ID=39731at4891_4;TCS_ID=39731at4891_4|contig_16|-|139020_CDS_0;Parent=39731at4891_4|contig_16|-|139020_exon_0

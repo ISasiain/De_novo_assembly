@@ -1,0 +1,19 @@
+#                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+contig_39:90131-90731     -            174 34589at4891          -            152   4.9e-78  257.3   6.6   1   1     1e-80   5.4e-78  257.1   6.6     3   152    12   170     6   170 0.94 -
+contig_16:302038-302607   -            190 34589at4891          -            152   6.7e-17   58.8   0.5   1   1   1.8e-19   9.5e-17   58.3   0.5     6   141    20   171    16   183 0.80 -
+contig_38:357991-358422   -            144 34589at4891          -            152   4.2e-12   43.2   1.9   1   1   1.1e-14   5.8e-12   42.7   1.9     8   139     5   141     1   144 0.77 -
+contig_23:279773-280249   -            159 34589at4891          -            152   2.1e-07   27.9   6.6   1   2   1.8e-05    0.0098   12.8   0.7    80   141    25    81    14    90 0.82 -
+contig_23:279773-280249   -            159 34589at4891          -            152   2.1e-07   27.9   6.6   2   2   3.8e-07    0.0002   18.2   0.7    78   141    96   154    88   158 0.89 -
+scaffold_25:793478-793924 -            149 34589at4891          -            152   0.00014   18.8   2.2   1   1   6.9e-06    0.0037   14.2   2.2    20   141    11   144     3   148 0.67 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-52-2022/De_novo_assembly/06_Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/34589at4891.hmm
+# Target file:     /home/inf-52-2022/De_novo_assembly/06_Busco/output/flye.assembly.fasta/run_saccharomycetes_odb10/metaeuk_output/initial_results/flye.assembly.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/inf-52-2022/De_novo_assembly/06_Busco/output/flye.assembly.fasta/run_saccharomycetes_odb10/hmmer_output/initial_run_results/34589at4891.out --cpu 1 /home/inf-52-2022/De_novo_assembly/06_Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/34589at4891.hmm /home/inf-52-2022/De_novo_assembly/06_Busco/output/flye.assembly.fasta/run_saccharomycetes_odb10/metaeuk_output/initial_results/flye.assembly.fasta.modified.fas 
+# Current dir:     /home/inf-52-2022/De_novo_assembly/06_Busco
+# Date:            Fri Feb 24 09:20:56 2023
+# [ok]

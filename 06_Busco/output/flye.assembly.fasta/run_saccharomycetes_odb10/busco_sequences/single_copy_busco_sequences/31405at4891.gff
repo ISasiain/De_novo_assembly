@@ -1,0 +1,8 @@
+contig_12	MetaEuk	gene	91822	92076	51	+	.	Target_ID=31405at4891_9;TCS_ID=31405at4891_9|contig_12|+|91821
+contig_12	MetaEuk	mRNA	91822	92076	51	+	.	Target_ID=31405at4891_9;TCS_ID=31405at4891_9|contig_12|+|91821_mRNA;Parent=31405at4891_9|contig_12|+|91821
+contig_12	MetaEuk	exon	91822	92076	51	+	.	Target_ID=31405at4891_9;TCS_ID=31405at4891_9|contig_12|+|91821_exon_0;Parent=31405at4891_9|contig_12|+|91821_mRNA
+contig_12	MetaEuk	CDS	91822	92076	51	+	.	Target_ID=31405at4891_9;TCS_ID=31405at4891_9|contig_12|+|91821_CDS_0;Parent=31405at4891_9|contig_12|+|91821_exon_0
+contig_23	MetaEuk	gene	80393	80785	251	-	.	Target_ID=31405at4891_4;TCS_ID=31405at4891_4|contig_23|-|80392
+contig_23	MetaEuk	mRNA	80393	80785	251	-	.	Target_ID=31405at4891_4;TCS_ID=31405at4891_4|contig_23|-|80392_mRNA;Parent=31405at4891_4|contig_23|-|80392
+contig_23	MetaEuk	exon	80393	80785	251	-	.	Target_ID=31405at4891_4;TCS_ID=31405at4891_4|contig_23|-|80392_exon_0;Parent=31405at4891_4|contig_23|-|80392_mRNA
+contig_23	MetaEuk	CDS	80393	80785	251	-	.	Target_ID=31405at4891_4;TCS_ID=31405at4891_4|contig_23|-|80392_CDS_0;Parent=31405at4891_4|contig_23|-|80392_exon_0

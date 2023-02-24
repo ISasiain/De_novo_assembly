@@ -1,0 +1,8 @@
+scaffold_25	MetaEuk	gene	706003	706497	302	-	.	Target_ID=32220at4891;TCS_ID=32220at4891|scaffold_25|-|706002
+scaffold_25	MetaEuk	mRNA	706003	706497	302	-	.	Target_ID=32220at4891;TCS_ID=32220at4891|scaffold_25|-|706002_mRNA;Parent=32220at4891|scaffold_25|-|706002
+scaffold_25	MetaEuk	exon	706003	706497	302	-	.	Target_ID=32220at4891;TCS_ID=32220at4891|scaffold_25|-|706002_exon_0;Parent=32220at4891|scaffold_25|-|706002_mRNA
+scaffold_25	MetaEuk	CDS	706003	706497	302	-	.	Target_ID=32220at4891;TCS_ID=32220at4891|scaffold_25|-|706002_CDS_0;Parent=32220at4891|scaffold_25|-|706002_exon_0
+scaffold_37	MetaEuk	gene	705794	706228	94	+	.	Target_ID=32220at4891;TCS_ID=32220at4891|scaffold_37|+|705793
+scaffold_37	MetaEuk	mRNA	705794	706228	94	+	.	Target_ID=32220at4891;TCS_ID=32220at4891|scaffold_37|+|705793_mRNA;Parent=32220at4891|scaffold_37|+|705793
+scaffold_37	MetaEuk	exon	705794	706228	94	+	.	Target_ID=32220at4891;TCS_ID=32220at4891|scaffold_37|+|705793_exon_0;Parent=32220at4891|scaffold_37|+|705793_mRNA
+scaffold_37	MetaEuk	CDS	705794	706228	94	+	.	Target_ID=32220at4891;TCS_ID=32220at4891|scaffold_37|+|705793_CDS_0;Parent=32220at4891|scaffold_37|+|705793_exon_0

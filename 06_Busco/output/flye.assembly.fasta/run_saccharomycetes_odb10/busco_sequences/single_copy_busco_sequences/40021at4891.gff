@@ -1,0 +1,4 @@
+contig_10	MetaEuk	gene	77948	78730	301	-	.	Target_ID=40021at4891_2;TCS_ID=40021at4891_2|contig_10|-|77947
+contig_10	MetaEuk	mRNA	77948	78730	301	-	.	Target_ID=40021at4891_2;TCS_ID=40021at4891_2|contig_10|-|77947_mRNA;Parent=40021at4891_2|contig_10|-|77947
+contig_10	MetaEuk	exon	77948	78730	301	-	.	Target_ID=40021at4891_2;TCS_ID=40021at4891_2|contig_10|-|77947_exon_0;Parent=40021at4891_2|contig_10|-|77947_mRNA
+contig_10	MetaEuk	CDS	77948	78730	301	-	.	Target_ID=40021at4891_2;TCS_ID=40021at4891_2|contig_10|-|77947_CDS_0;Parent=40021at4891_2|contig_10|-|77947_exon_0

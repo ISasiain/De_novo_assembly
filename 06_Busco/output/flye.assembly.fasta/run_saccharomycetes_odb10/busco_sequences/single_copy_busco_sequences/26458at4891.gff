@@ -1,0 +1,4 @@
+contig_16	MetaEuk	gene	978305	978859	247	-	.	Target_ID=26458at4891_4;TCS_ID=26458at4891_4|contig_16|-|978304
+contig_16	MetaEuk	mRNA	978305	978859	247	-	.	Target_ID=26458at4891_4;TCS_ID=26458at4891_4|contig_16|-|978304_mRNA;Parent=26458at4891_4|contig_16|-|978304
+contig_16	MetaEuk	exon	978305	978859	247	-	.	Target_ID=26458at4891_4;TCS_ID=26458at4891_4|contig_16|-|978304_exon_0;Parent=26458at4891_4|contig_16|-|978304_mRNA
+contig_16	MetaEuk	CDS	978305	978859	247	-	.	Target_ID=26458at4891_4;TCS_ID=26458at4891_4|contig_16|-|978304_CDS_0;Parent=26458at4891_4|contig_16|-|978304_exon_0

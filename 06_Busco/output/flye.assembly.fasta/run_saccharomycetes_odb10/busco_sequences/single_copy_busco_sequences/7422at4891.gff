@@ -1,0 +1,4 @@
+contig_2	MetaEuk	gene	102230	104422	865	-	.	Target_ID=7422at4891_2;TCS_ID=7422at4891_2|contig_2|-|102229
+contig_2	MetaEuk	mRNA	102230	104422	865	-	.	Target_ID=7422at4891_2;TCS_ID=7422at4891_2|contig_2|-|102229_mRNA;Parent=7422at4891_2|contig_2|-|102229
+contig_2	MetaEuk	exon	102230	104422	865	-	.	Target_ID=7422at4891_2;TCS_ID=7422at4891_2|contig_2|-|102229_exon_0;Parent=7422at4891_2|contig_2|-|102229_mRNA
+contig_2	MetaEuk	CDS	102230	104422	865	-	.	Target_ID=7422at4891_2;TCS_ID=7422at4891_2|contig_2|-|102229_CDS_0;Parent=7422at4891_2|contig_2|-|102229_exon_0

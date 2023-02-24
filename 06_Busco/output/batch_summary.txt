@@ -1,0 +1,4 @@
+Input_file	Dataset	Complete	Single	Duplicated	Fragmented	Missing	n_markers	Scaffold N50	Contigs N50	Percent gaps	Number of scaffolds
+canu.contigs.fasta	saccharomycetes_odb10	99.7	96.2	3.5	0.1	0.2	2137	778969	778969	0.000%	96
+flye.assembly.fasta	saccharomycetes_odb10	99.6	97.4	2.2	0.1	0.3	2137	902771	733384	0.002%	25
+hifiasm.asm.bp.p_ctg.fasta	saccharomycetes_odb10	99.6	97.3	2.3	0.1	0.3	2137	809047	809047	0.000%	49

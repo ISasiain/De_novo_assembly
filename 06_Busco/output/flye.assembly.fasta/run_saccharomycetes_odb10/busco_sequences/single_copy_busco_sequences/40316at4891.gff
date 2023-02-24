@@ -1,0 +1,12 @@
+contig_12	MetaEuk	gene	459736	459918	36	-	.	Target_ID=40316at4891_7;TCS_ID=40316at4891_7|contig_12|-|459735
+contig_12	MetaEuk	mRNA	459736	459918	36	-	.	Target_ID=40316at4891_7;TCS_ID=40316at4891_7|contig_12|-|459735_mRNA;Parent=40316at4891_7|contig_12|-|459735
+contig_12	MetaEuk	exon	459736	459918	36	-	.	Target_ID=40316at4891_7;TCS_ID=40316at4891_7|contig_12|-|459735_exon_0;Parent=40316at4891_7|contig_12|-|459735_mRNA
+contig_12	MetaEuk	CDS	459736	459918	36	-	.	Target_ID=40316at4891_7;TCS_ID=40316at4891_7|contig_12|-|459735_CDS_0;Parent=40316at4891_7|contig_12|-|459735_exon_0
+contig_34	MetaEuk	gene	107407	107667	154	-	.	Target_ID=40316at4891;TCS_ID=40316at4891|contig_34|-|107406
+contig_34	MetaEuk	mRNA	107407	107667	154	-	.	Target_ID=40316at4891;TCS_ID=40316at4891|contig_34|-|107406_mRNA;Parent=40316at4891|contig_34|-|107406
+contig_34	MetaEuk	exon	107407	107667	154	-	.	Target_ID=40316at4891;TCS_ID=40316at4891|contig_34|-|107406_exon_0;Parent=40316at4891|contig_34|-|107406_mRNA
+contig_34	MetaEuk	CDS	107407	107667	154	-	.	Target_ID=40316at4891;TCS_ID=40316at4891|contig_34|-|107406_CDS_0;Parent=40316at4891|contig_34|-|107406_exon_0
+contig_38	MetaEuk	gene	387047	387274	60	+	.	Target_ID=40316at4891_9;TCS_ID=40316at4891_9|contig_38|+|387046
+contig_38	MetaEuk	mRNA	387047	387274	60	+	.	Target_ID=40316at4891_9;TCS_ID=40316at4891_9|contig_38|+|387046_mRNA;Parent=40316at4891_9|contig_38|+|387046
+contig_38	MetaEuk	exon	387047	387274	60	+	.	Target_ID=40316at4891_9;TCS_ID=40316at4891_9|contig_38|+|387046_exon_0;Parent=40316at4891_9|contig_38|+|387046_mRNA
+contig_38	MetaEuk	CDS	387047	387274	60	+	.	Target_ID=40316at4891_9;TCS_ID=40316at4891_9|contig_38|+|387046_CDS_0;Parent=40316at4891_9|contig_38|+|387046_exon_0

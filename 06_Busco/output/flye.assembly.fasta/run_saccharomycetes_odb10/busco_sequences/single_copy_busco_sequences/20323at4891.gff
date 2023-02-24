@@ -1,0 +1,14 @@
+contig_10	MetaEuk	gene	569085	570242	451	+	.	Target_ID=20323at4891_7;TCS_ID=20323at4891_7|contig_10|+|569084
+contig_10	MetaEuk	mRNA	569085	570242	451	+	.	Target_ID=20323at4891_7;TCS_ID=20323at4891_7|contig_10|+|569084_mRNA;Parent=20323at4891_7|contig_10|+|569084
+contig_10	MetaEuk	exon	569085	570242	451	+	.	Target_ID=20323at4891_7;TCS_ID=20323at4891_7|contig_10|+|569084_exon_0;Parent=20323at4891_7|contig_10|+|569084_mRNA
+contig_10	MetaEuk	CDS	569085	570242	451	+	.	Target_ID=20323at4891_7;TCS_ID=20323at4891_7|contig_10|+|569084_CDS_0;Parent=20323at4891_7|contig_10|+|569084_exon_0
+contig_10	MetaEuk	gene	568295	570257	470	+	.	Target_ID=20323at4891;TCS_ID=20323at4891|contig_10|+|568294
+contig_10	MetaEuk	mRNA	568295	570257	470	+	.	Target_ID=20323at4891;TCS_ID=20323at4891|contig_10|+|568294_mRNA;Parent=20323at4891|contig_10|+|568294
+contig_10	MetaEuk	exon	568295	568720	88	+	.	Target_ID=20323at4891;TCS_ID=20323at4891|contig_10|+|568294_exon_0;Parent=20323at4891|contig_10|+|568294_mRNA
+contig_10	MetaEuk	CDS	568295	568720	88	+	.	Target_ID=20323at4891;TCS_ID=20323at4891|contig_10|+|568294_CDS_0;Parent=20323at4891|contig_10|+|568294_exon_0
+contig_10	MetaEuk	exon	569064	570257	397	+	.	Target_ID=20323at4891;TCS_ID=20323at4891|contig_10|+|568294_exon_1;Parent=20323at4891|contig_10|+|568294_mRNA
+contig_10	MetaEuk	CDS	569064	570257	397	+	.	Target_ID=20323at4891;TCS_ID=20323at4891|contig_10|+|568294_CDS_1;Parent=20323at4891|contig_10|+|568294_exon_1
+scaffold_25	MetaEuk	gene	673915	675087	241	+	.	Target_ID=20323at4891_3;TCS_ID=20323at4891_3|scaffold_25|+|673914
+scaffold_25	MetaEuk	mRNA	673915	675087	241	+	.	Target_ID=20323at4891_3;TCS_ID=20323at4891_3|scaffold_25|+|673914_mRNA;Parent=20323at4891_3|scaffold_25|+|673914
+scaffold_25	MetaEuk	exon	673915	675087	241	+	.	Target_ID=20323at4891_3;TCS_ID=20323at4891_3|scaffold_25|+|673914_exon_0;Parent=20323at4891_3|scaffold_25|+|673914_mRNA
+scaffold_25	MetaEuk	CDS	673915	675087	241	+	.	Target_ID=20323at4891_3;TCS_ID=20323at4891_3|scaffold_25|+|673914_CDS_0;Parent=20323at4891_3|scaffold_25|+|673914_exon_0

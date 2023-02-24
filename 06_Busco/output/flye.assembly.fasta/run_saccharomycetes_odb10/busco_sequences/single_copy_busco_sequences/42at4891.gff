@@ -1,0 +1,4 @@
+contig_10	MetaEuk	gene	154368	161006	3835	-	.	Target_ID=42at4891_2;TCS_ID=42at4891_2|contig_10|-|154367
+contig_10	MetaEuk	mRNA	154368	161006	3835	-	.	Target_ID=42at4891_2;TCS_ID=42at4891_2|contig_10|-|154367_mRNA;Parent=42at4891_2|contig_10|-|154367
+contig_10	MetaEuk	exon	154368	161006	3835	-	.	Target_ID=42at4891_2;TCS_ID=42at4891_2|contig_10|-|154367_exon_0;Parent=42at4891_2|contig_10|-|154367_mRNA
+contig_10	MetaEuk	CDS	154368	161006	3835	-	.	Target_ID=42at4891_2;TCS_ID=42at4891_2|contig_10|-|154367_CDS_0;Parent=42at4891_2|contig_10|-|154367_exon_0

@@ -1,0 +1,12 @@
+contig_12	MetaEuk	gene	372909	375005	81	-	.	Target_ID=8231at4891_8;TCS_ID=8231at4891_8|contig_12|-|372908
+contig_12	MetaEuk	mRNA	372909	375005	81	-	.	Target_ID=8231at4891_8;TCS_ID=8231at4891_8|contig_12|-|372908_mRNA;Parent=8231at4891_8|contig_12|-|372908
+contig_12	MetaEuk	exon	372909	375005	81	-	.	Target_ID=8231at4891_8;TCS_ID=8231at4891_8|contig_12|-|372908_exon_0;Parent=8231at4891_8|contig_12|-|372908_mRNA
+contig_12	MetaEuk	CDS	372909	375005	81	-	.	Target_ID=8231at4891_8;TCS_ID=8231at4891_8|contig_12|-|372908_CDS_0;Parent=8231at4891_8|contig_12|-|372908_exon_0
+contig_2	MetaEuk	gene	718338	720347	886	-	.	Target_ID=8231at4891;TCS_ID=8231at4891|contig_2|-|718337
+contig_2	MetaEuk	mRNA	718338	720347	886	-	.	Target_ID=8231at4891;TCS_ID=8231at4891|contig_2|-|718337_mRNA;Parent=8231at4891|contig_2|-|718337
+contig_2	MetaEuk	exon	718338	720347	886	-	.	Target_ID=8231at4891;TCS_ID=8231at4891|contig_2|-|718337_exon_0;Parent=8231at4891|contig_2|-|718337_mRNA
+contig_2	MetaEuk	CDS	718338	720347	886	-	.	Target_ID=8231at4891;TCS_ID=8231at4891|contig_2|-|718337_CDS_0;Parent=8231at4891|contig_2|-|718337_exon_0
+contig_4	MetaEuk	gene	33982	35835	224	-	.	Target_ID=8231at4891_6;TCS_ID=8231at4891_6|contig_4|-|33981
+contig_4	MetaEuk	mRNA	33982	35835	224	-	.	Target_ID=8231at4891_6;TCS_ID=8231at4891_6|contig_4|-|33981_mRNA;Parent=8231at4891_6|contig_4|-|33981
+contig_4	MetaEuk	exon	33982	35835	224	-	.	Target_ID=8231at4891_6;TCS_ID=8231at4891_6|contig_4|-|33981_exon_0;Parent=8231at4891_6|contig_4|-|33981_mRNA
+contig_4	MetaEuk	CDS	33982	35835	224	-	.	Target_ID=8231at4891_6;TCS_ID=8231at4891_6|contig_4|-|33981_CDS_0;Parent=8231at4891_6|contig_4|-|33981_exon_0

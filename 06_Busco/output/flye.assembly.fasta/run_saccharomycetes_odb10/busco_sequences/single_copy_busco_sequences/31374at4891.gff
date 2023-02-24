@@ -1,0 +1,8 @@
+contig_16	MetaEuk	gene	419853	420293	56	+	.	Target_ID=31374at4891_2;TCS_ID=31374at4891_2|contig_16|+|419852
+contig_16	MetaEuk	mRNA	419853	420293	56	+	.	Target_ID=31374at4891_2;TCS_ID=31374at4891_2|contig_16|+|419852_mRNA;Parent=31374at4891_2|contig_16|+|419852
+contig_16	MetaEuk	exon	419853	420293	56	+	.	Target_ID=31374at4891_2;TCS_ID=31374at4891_2|contig_16|+|419852_exon_0;Parent=31374at4891_2|contig_16|+|419852_mRNA
+contig_16	MetaEuk	CDS	419853	420293	56	+	.	Target_ID=31374at4891_2;TCS_ID=31374at4891_2|contig_16|+|419852_CDS_0;Parent=31374at4891_2|contig_16|+|419852_exon_0
+scaffold_25	MetaEuk	gene	828379	829458	241	-	.	Target_ID=31374at4891_1;TCS_ID=31374at4891_1|scaffold_25|-|828378
+scaffold_25	MetaEuk	mRNA	828379	829458	241	-	.	Target_ID=31374at4891_1;TCS_ID=31374at4891_1|scaffold_25|-|828378_mRNA;Parent=31374at4891_1|scaffold_25|-|828378
+scaffold_25	MetaEuk	exon	828379	829458	241	-	.	Target_ID=31374at4891_1;TCS_ID=31374at4891_1|scaffold_25|-|828378_exon_0;Parent=31374at4891_1|scaffold_25|-|828378_mRNA
+scaffold_25	MetaEuk	CDS	828379	829458	241	-	.	Target_ID=31374at4891_1;TCS_ID=31374at4891_1|scaffold_25|-|828378_CDS_0;Parent=31374at4891_1|scaffold_25|-|828378_exon_0

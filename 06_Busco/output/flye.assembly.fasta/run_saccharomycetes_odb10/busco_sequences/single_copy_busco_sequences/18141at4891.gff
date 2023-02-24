@@ -1,0 +1,4 @@
+contig_23	MetaEuk	gene	252316	253551	566	-	.	Target_ID=18141at4891_2;TCS_ID=18141at4891_2|contig_23|-|252315
+contig_23	MetaEuk	mRNA	252316	253551	566	-	.	Target_ID=18141at4891_2;TCS_ID=18141at4891_2|contig_23|-|252315_mRNA;Parent=18141at4891_2|contig_23|-|252315
+contig_23	MetaEuk	exon	252316	253551	566	-	.	Target_ID=18141at4891_2;TCS_ID=18141at4891_2|contig_23|-|252315_exon_0;Parent=18141at4891_2|contig_23|-|252315_mRNA
+contig_23	MetaEuk	CDS	252316	253551	566	-	.	Target_ID=18141at4891_2;TCS_ID=18141at4891_2|contig_23|-|252315_CDS_0;Parent=18141at4891_2|contig_23|-|252315_exon_0

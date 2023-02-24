@@ -1,0 +1,8 @@
+contig_5	MetaEuk	gene	350176	353796	169	-	.	Target_ID=8923at4891_8;TCS_ID=8923at4891_8|contig_5|-|350175
+contig_5	MetaEuk	mRNA	350176	353796	169	-	.	Target_ID=8923at4891_8;TCS_ID=8923at4891_8|contig_5|-|350175_mRNA;Parent=8923at4891_8|contig_5|-|350175
+contig_5	MetaEuk	exon	350176	353796	169	-	.	Target_ID=8923at4891_8;TCS_ID=8923at4891_8|contig_5|-|350175_exon_0;Parent=8923at4891_8|contig_5|-|350175_mRNA
+contig_5	MetaEuk	CDS	350176	353796	169	-	.	Target_ID=8923at4891_8;TCS_ID=8923at4891_8|contig_5|-|350175_CDS_0;Parent=8923at4891_8|contig_5|-|350175_exon_0
+scaffold_25	MetaEuk	gene	136060	139593	1069	+	.	Target_ID=8923at4891_9;TCS_ID=8923at4891_9|scaffold_25|+|136059
+scaffold_25	MetaEuk	mRNA	136060	139593	1069	+	.	Target_ID=8923at4891_9;TCS_ID=8923at4891_9|scaffold_25|+|136059_mRNA;Parent=8923at4891_9|scaffold_25|+|136059
+scaffold_25	MetaEuk	exon	136060	139593	1069	+	.	Target_ID=8923at4891_9;TCS_ID=8923at4891_9|scaffold_25|+|136059_exon_0;Parent=8923at4891_9|scaffold_25|+|136059_mRNA
+scaffold_25	MetaEuk	CDS	136060	139593	1069	+	.	Target_ID=8923at4891_9;TCS_ID=8923at4891_9|scaffold_25|+|136059_CDS_0;Parent=8923at4891_9|scaffold_25|+|136059_exon_0

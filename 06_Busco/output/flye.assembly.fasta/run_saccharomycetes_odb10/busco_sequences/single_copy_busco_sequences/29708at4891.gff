@@ -1,0 +1,8 @@
+contig_23	MetaEuk	gene	910310	911173	324	+	.	Target_ID=29708at4891_2;TCS_ID=29708at4891_2|contig_23|+|910309
+contig_23	MetaEuk	mRNA	910310	911173	324	+	.	Target_ID=29708at4891_2;TCS_ID=29708at4891_2|contig_23|+|910309_mRNA;Parent=29708at4891_2|contig_23|+|910309
+contig_23	MetaEuk	exon	910310	911173	324	+	.	Target_ID=29708at4891_2;TCS_ID=29708at4891_2|contig_23|+|910309_exon_0;Parent=29708at4891_2|contig_23|+|910309_mRNA
+contig_23	MetaEuk	CDS	910310	911173	324	+	.	Target_ID=29708at4891_2;TCS_ID=29708at4891_2|contig_23|+|910309_CDS_0;Parent=29708at4891_2|contig_23|+|910309_exon_0
+scaffold_25	MetaEuk	gene	49444	49917	102	+	.	Target_ID=29708at4891_1;TCS_ID=29708at4891_1|scaffold_25|+|49443
+scaffold_25	MetaEuk	mRNA	49444	49917	102	+	.	Target_ID=29708at4891_1;TCS_ID=29708at4891_1|scaffold_25|+|49443_mRNA;Parent=29708at4891_1|scaffold_25|+|49443
+scaffold_25	MetaEuk	exon	49444	49917	102	+	.	Target_ID=29708at4891_1;TCS_ID=29708at4891_1|scaffold_25|+|49443_exon_0;Parent=29708at4891_1|scaffold_25|+|49443_mRNA
+scaffold_25	MetaEuk	CDS	49444	49917	102	+	.	Target_ID=29708at4891_1;TCS_ID=29708at4891_1|scaffold_25|+|49443_CDS_0;Parent=29708at4891_1|scaffold_25|+|49443_exon_0

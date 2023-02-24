@@ -1,0 +1,12 @@
+contig_2	MetaEuk	gene	226399	227376	325	-	.	Target_ID=11759at4891_2;TCS_ID=11759at4891_2|contig_2|-|226398
+contig_2	MetaEuk	mRNA	226399	227376	325	-	.	Target_ID=11759at4891_2;TCS_ID=11759at4891_2|contig_2|-|226398_mRNA;Parent=11759at4891_2|contig_2|-|226398
+contig_2	MetaEuk	exon	226399	227376	325	-	.	Target_ID=11759at4891_2;TCS_ID=11759at4891_2|contig_2|-|226398_exon_0;Parent=11759at4891_2|contig_2|-|226398_mRNA
+contig_2	MetaEuk	CDS	226399	227376	325	-	.	Target_ID=11759at4891_2;TCS_ID=11759at4891_2|contig_2|-|226398_CDS_0;Parent=11759at4891_2|contig_2|-|226398_exon_0
+contig_23	MetaEuk	gene	1013153	1014448	565	-	.	Target_ID=11759at4891_1;TCS_ID=11759at4891_1|contig_23|-|1013152
+contig_23	MetaEuk	mRNA	1013153	1014448	565	-	.	Target_ID=11759at4891_1;TCS_ID=11759at4891_1|contig_23|-|1013152_mRNA;Parent=11759at4891_1|contig_23|-|1013152
+contig_23	MetaEuk	exon	1013153	1014448	565	-	.	Target_ID=11759at4891_1;TCS_ID=11759at4891_1|contig_23|-|1013152_exon_0;Parent=11759at4891_1|contig_23|-|1013152_mRNA
+contig_23	MetaEuk	CDS	1013153	1014448	565	-	.	Target_ID=11759at4891_1;TCS_ID=11759at4891_1|contig_23|-|1013152_CDS_0;Parent=11759at4891_1|contig_23|-|1013152_exon_0
+scaffold_37	MetaEuk	gene	777628	778533	268	+	.	Target_ID=11759at4891_5;TCS_ID=11759at4891_5|scaffold_37|+|777627
+scaffold_37	MetaEuk	mRNA	777628	778533	268	+	.	Target_ID=11759at4891_5;TCS_ID=11759at4891_5|scaffold_37|+|777627_mRNA;Parent=11759at4891_5|scaffold_37|+|777627
+scaffold_37	MetaEuk	exon	777628	778533	268	+	.	Target_ID=11759at4891_5;TCS_ID=11759at4891_5|scaffold_37|+|777627_exon_0;Parent=11759at4891_5|scaffold_37|+|777627_mRNA
+scaffold_37	MetaEuk	CDS	777628	778533	268	+	.	Target_ID=11759at4891_5;TCS_ID=11759at4891_5|scaffold_37|+|777627_CDS_0;Parent=11759at4891_5|scaffold_37|+|777627_exon_0

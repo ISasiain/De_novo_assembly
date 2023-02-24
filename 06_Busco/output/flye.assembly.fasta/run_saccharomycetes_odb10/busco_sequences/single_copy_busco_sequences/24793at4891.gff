@@ -1,0 +1,8 @@
+contig_3	MetaEuk	gene	191493	192467	118	+	.	Target_ID=24793at4891_2;TCS_ID=24793at4891_2|contig_3|+|191492
+contig_3	MetaEuk	mRNA	191493	192467	118	+	.	Target_ID=24793at4891_2;TCS_ID=24793at4891_2|contig_3|+|191492_mRNA;Parent=24793at4891_2|contig_3|+|191492
+contig_3	MetaEuk	exon	191493	192467	118	+	.	Target_ID=24793at4891_2;TCS_ID=24793at4891_2|contig_3|+|191492_exon_0;Parent=24793at4891_2|contig_3|+|191492_mRNA
+contig_3	MetaEuk	CDS	191493	192467	118	+	.	Target_ID=24793at4891_2;TCS_ID=24793at4891_2|contig_3|+|191492_CDS_0;Parent=24793at4891_2|contig_3|+|191492_exon_0
+scaffold_25	MetaEuk	gene	152055	153398	509	+	.	Target_ID=24793at4891_6;TCS_ID=24793at4891_6|scaffold_25|+|152054
+scaffold_25	MetaEuk	mRNA	152055	153398	509	+	.	Target_ID=24793at4891_6;TCS_ID=24793at4891_6|scaffold_25|+|152054_mRNA;Parent=24793at4891_6|scaffold_25|+|152054
+scaffold_25	MetaEuk	exon	152055	153398	509	+	.	Target_ID=24793at4891_6;TCS_ID=24793at4891_6|scaffold_25|+|152054_exon_0;Parent=24793at4891_6|scaffold_25|+|152054_mRNA
+scaffold_25	MetaEuk	CDS	152055	153398	509	+	.	Target_ID=24793at4891_6;TCS_ID=24793at4891_6|scaffold_25|+|152054_CDS_0;Parent=24793at4891_6|scaffold_25|+|152054_exon_0

@@ -1,0 +1,22 @@
+#                                                                                 --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name             accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#     ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+contig_5:354326-356370    -            631 7208at4891           -            321  3.1e-140  464.3  14.3   1   3   1.8e-22   9.6e-20   68.3   0.0     7    79   131   222   126   234 0.79 -
+contig_5:354326-356370    -            631 7208at4891           -            321  3.1e-140  464.3  14.3   2   3   9.1e-49   4.9e-46  154.7   4.6    78   198   246   400   224   415 0.84 -
+contig_5:354326-356370    -            631 7208at4891           -            321  3.1e-140  464.3  14.3   3   3   9.3e-75     5e-72  240.1   0.7   193   321   441   569   433   569 0.98 -
+contig_10:137014-137931   -            306 7208at4891           -            321   0.00014   18.5   1.0   1   2    0.0023       1.2    5.5   0.5   248   315    25    91    16    96 0.71 -
+contig_10:137014-137931   -            306 7208at4891           -            321   0.00014   18.5   1.0   2   2   1.6e-05    0.0083   12.6   0.0   140   209    87   157    78   168 0.81 -
+scaffold_37:604355-605971 -            539 7208at4891           -            321   0.00086   15.9   0.0   1   2     0.024        13    2.2   0.0    60    81   150   173    80   255 0.68 -
+scaffold_37:604355-605971 -            539 7208at4891           -            321   0.00086   15.9   0.0   2   2   6.3e-05     0.034   10.7   0.0   151   197   287   334   258   371 0.88 -
+scaffold_37:312544-313473 -            310 7208at4891           -            321    0.0079   12.7   0.1   1   1   2.8e-05     0.015   11.8   0.1   166   211   135   179   100   191 0.84 -
+contig_21:334458-335687   -            410 7208at4891           -            321     0.023   11.2   0.0   1   1   6.5e-05     0.035   10.6   0.0   179   220   136   176   107   220 0.83 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-52-2022/De_novo_assembly/06_Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/7208at4891.hmm
+# Target file:     /home/inf-52-2022/De_novo_assembly/06_Busco/output/flye.assembly.fasta/run_saccharomycetes_odb10/metaeuk_output/initial_results/flye.assembly.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/inf-52-2022/De_novo_assembly/06_Busco/output/flye.assembly.fasta/run_saccharomycetes_odb10/hmmer_output/initial_run_results/7208at4891.out --cpu 1 /home/inf-52-2022/De_novo_assembly/06_Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/7208at4891.hmm /home/inf-52-2022/De_novo_assembly/06_Busco/output/flye.assembly.fasta/run_saccharomycetes_odb10/metaeuk_output/initial_results/flye.assembly.fasta.modified.fas 
+# Current dir:     /home/inf-52-2022/De_novo_assembly/06_Busco
+# Date:            Fri Feb 24 09:20:56 2023
+# [ok]

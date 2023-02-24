@@ -1,0 +1,4 @@
+contig_2	MetaEuk	gene	82516	82764	120	-	.	Target_ID=41473at4891_9;TCS_ID=41473at4891_9|contig_2|-|82515
+contig_2	MetaEuk	mRNA	82516	82764	120	-	.	Target_ID=41473at4891_9;TCS_ID=41473at4891_9|contig_2|-|82515_mRNA;Parent=41473at4891_9|contig_2|-|82515
+contig_2	MetaEuk	exon	82516	82764	120	-	.	Target_ID=41473at4891_9;TCS_ID=41473at4891_9|contig_2|-|82515_exon_0;Parent=41473at4891_9|contig_2|-|82515_mRNA
+contig_2	MetaEuk	CDS	82516	82764	120	-	.	Target_ID=41473at4891_9;TCS_ID=41473at4891_9|contig_2|-|82515_CDS_0;Parent=41473at4891_9|contig_2|-|82515_exon_0

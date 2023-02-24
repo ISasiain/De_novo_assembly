@@ -1,0 +1,4 @@
+scaffold_37	MetaEuk	gene	571443	573410	1027	+	.	Target_ID=9609at4891_9;TCS_ID=9609at4891_9|scaffold_37|+|571442
+scaffold_37	MetaEuk	mRNA	571443	573410	1027	+	.	Target_ID=9609at4891_9;TCS_ID=9609at4891_9|scaffold_37|+|571442_mRNA;Parent=9609at4891_9|scaffold_37|+|571442
+scaffold_37	MetaEuk	exon	571443	573410	1027	+	.	Target_ID=9609at4891_9;TCS_ID=9609at4891_9|scaffold_37|+|571442_exon_0;Parent=9609at4891_9|scaffold_37|+|571442_mRNA
+scaffold_37	MetaEuk	CDS	571443	573410	1027	+	.	Target_ID=9609at4891_9;TCS_ID=9609at4891_9|scaffold_37|+|571442_CDS_0;Parent=9609at4891_9|scaffold_37|+|571442_exon_0

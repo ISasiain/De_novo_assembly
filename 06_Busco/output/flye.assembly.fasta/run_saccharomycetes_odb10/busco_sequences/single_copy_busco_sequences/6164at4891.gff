@@ -1,0 +1,8 @@
+contig_3	MetaEuk	gene	152653	154089	766	+	.	Target_ID=6164at4891_6;TCS_ID=6164at4891_6|contig_3|+|152652
+contig_3	MetaEuk	mRNA	152653	154089	766	+	.	Target_ID=6164at4891_6;TCS_ID=6164at4891_6|contig_3|+|152652_mRNA;Parent=6164at4891_6|contig_3|+|152652
+contig_3	MetaEuk	exon	152653	154089	766	+	.	Target_ID=6164at4891_6;TCS_ID=6164at4891_6|contig_3|+|152652_exon_0;Parent=6164at4891_6|contig_3|+|152652_mRNA
+contig_3	MetaEuk	CDS	152653	154089	766	+	.	Target_ID=6164at4891_6;TCS_ID=6164at4891_6|contig_3|+|152652_CDS_0;Parent=6164at4891_6|contig_3|+|152652_exon_0
+scaffold_37	MetaEuk	gene	68104	69024	49	+	.	Target_ID=6164at4891_7;TCS_ID=6164at4891_7|scaffold_37|+|68103
+scaffold_37	MetaEuk	mRNA	68104	69024	49	+	.	Target_ID=6164at4891_7;TCS_ID=6164at4891_7|scaffold_37|+|68103_mRNA;Parent=6164at4891_7|scaffold_37|+|68103
+scaffold_37	MetaEuk	exon	68104	69024	49	+	.	Target_ID=6164at4891_7;TCS_ID=6164at4891_7|scaffold_37|+|68103_exon_0;Parent=6164at4891_7|scaffold_37|+|68103_mRNA
+scaffold_37	MetaEuk	CDS	68104	69024	49	+	.	Target_ID=6164at4891_7;TCS_ID=6164at4891_7|scaffold_37|+|68103_CDS_0;Parent=6164at4891_7|scaffold_37|+|68103_exon_0

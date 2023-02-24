@@ -1,0 +1,4 @@
+contig_23	MetaEuk	gene	527238	530921	1420	+	.	Target_ID=1038at4891_6;TCS_ID=1038at4891_6|contig_23|+|527237
+contig_23	MetaEuk	mRNA	527238	530921	1420	+	.	Target_ID=1038at4891_6;TCS_ID=1038at4891_6|contig_23|+|527237_mRNA;Parent=1038at4891_6|contig_23|+|527237
+contig_23	MetaEuk	exon	527238	530921	1420	+	.	Target_ID=1038at4891_6;TCS_ID=1038at4891_6|contig_23|+|527237_exon_0;Parent=1038at4891_6|contig_23|+|527237_mRNA
+contig_23	MetaEuk	CDS	527238	530921	1420	+	.	Target_ID=1038at4891_6;TCS_ID=1038at4891_6|contig_23|+|527237_CDS_0;Parent=1038at4891_6|contig_23|+|527237_exon_0

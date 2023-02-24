@@ -1,0 +1,4 @@
+contig_16	MetaEuk	gene	707873	708517	372	-	.	Target_ID=31320at4891_2;TCS_ID=31320at4891_2|contig_16|-|707872
+contig_16	MetaEuk	mRNA	707873	708517	372	-	.	Target_ID=31320at4891_2;TCS_ID=31320at4891_2|contig_16|-|707872_mRNA;Parent=31320at4891_2|contig_16|-|707872
+contig_16	MetaEuk	exon	707873	708517	372	-	.	Target_ID=31320at4891_2;TCS_ID=31320at4891_2|contig_16|-|707872_exon_0;Parent=31320at4891_2|contig_16|-|707872_mRNA
+contig_16	MetaEuk	CDS	707873	708517	372	-	.	Target_ID=31320at4891_2;TCS_ID=31320at4891_2|contig_16|-|707872_CDS_0;Parent=31320at4891_2|contig_16|-|707872_exon_0

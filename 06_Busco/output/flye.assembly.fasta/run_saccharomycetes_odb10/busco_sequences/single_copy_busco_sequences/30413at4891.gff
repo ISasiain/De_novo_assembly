@@ -1,0 +1,4 @@
+contig_34	MetaEuk	gene	174372	175397	223	-	.	Target_ID=30413at4891_6;TCS_ID=30413at4891_6|contig_34|-|174371
+contig_34	MetaEuk	mRNA	174372	175397	223	-	.	Target_ID=30413at4891_6;TCS_ID=30413at4891_6|contig_34|-|174371_mRNA;Parent=30413at4891_6|contig_34|-|174371
+contig_34	MetaEuk	exon	174372	175397	223	-	.	Target_ID=30413at4891_6;TCS_ID=30413at4891_6|contig_34|-|174371_exon_0;Parent=30413at4891_6|contig_34|-|174371_mRNA
+contig_34	MetaEuk	CDS	174372	175397	223	-	.	Target_ID=30413at4891_6;TCS_ID=30413at4891_6|contig_34|-|174371_CDS_0;Parent=30413at4891_6|contig_34|-|174371_exon_0

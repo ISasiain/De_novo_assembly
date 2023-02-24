@@ -1,0 +1,14 @@
+contig_23	MetaEuk	gene	594925	595470	149	+	.	Target_ID=26506at4891_1;TCS_ID=26506at4891_1|contig_23|+|594924
+contig_23	MetaEuk	mRNA	594925	595470	149	+	.	Target_ID=26506at4891_1;TCS_ID=26506at4891_1|contig_23|+|594924_mRNA;Parent=26506at4891_1|contig_23|+|594924
+contig_23	MetaEuk	exon	594925	595470	149	+	.	Target_ID=26506at4891_1;TCS_ID=26506at4891_1|contig_23|+|594924_exon_0;Parent=26506at4891_1|contig_23|+|594924_mRNA
+contig_23	MetaEuk	CDS	594925	595470	149	+	.	Target_ID=26506at4891_1;TCS_ID=26506at4891_1|contig_23|+|594924_CDS_0;Parent=26506at4891_1|contig_23|+|594924_exon_0
+contig_38	MetaEuk	gene	72145	72714	126	+	.	Target_ID=26506at4891_7;TCS_ID=26506at4891_7|contig_38|+|72144
+contig_38	MetaEuk	mRNA	72145	72714	126	+	.	Target_ID=26506at4891_7;TCS_ID=26506at4891_7|contig_38|+|72144_mRNA;Parent=26506at4891_7|contig_38|+|72144
+contig_38	MetaEuk	exon	72145	72714	126	+	.	Target_ID=26506at4891_7;TCS_ID=26506at4891_7|contig_38|+|72144_exon_0;Parent=26506at4891_7|contig_38|+|72144_mRNA
+contig_38	MetaEuk	CDS	72145	72714	126	+	.	Target_ID=26506at4891_7;TCS_ID=26506at4891_7|contig_38|+|72144_CDS_0;Parent=26506at4891_7|contig_38|+|72144_exon_0
+scaffold_37	MetaEuk	gene	629318	630733	374	-	.	Target_ID=26506at4891;TCS_ID=26506at4891|scaffold_37|-|629317
+scaffold_37	MetaEuk	mRNA	629318	630733	374	-	.	Target_ID=26506at4891;TCS_ID=26506at4891|scaffold_37|-|629317_mRNA;Parent=26506at4891|scaffold_37|-|629317
+scaffold_37	MetaEuk	exon	630548	630733	80	-	.	Target_ID=26506at4891;TCS_ID=26506at4891|scaffold_37|-|629317_exon_0;Parent=26506at4891|scaffold_37|-|629317_mRNA
+scaffold_37	MetaEuk	CDS	630548	630733	80	-	.	Target_ID=26506at4891;TCS_ID=26506at4891|scaffold_37|-|629317_CDS_0;Parent=26506at4891|scaffold_37|-|629317_exon_0
+scaffold_37	MetaEuk	exon	629318	629968	318	-	.	Target_ID=26506at4891;TCS_ID=26506at4891|scaffold_37|-|629317_exon_1;Parent=26506at4891|scaffold_37|-|629317_mRNA
+scaffold_37	MetaEuk	CDS	629318	629968	318	-	.	Target_ID=26506at4891;TCS_ID=26506at4891|scaffold_37|-|629317_CDS_1;Parent=26506at4891|scaffold_37|-|629317_exon_1

@@ -1,0 +1,8 @@
+contig_2	MetaEuk	gene	44901	45632	86	+	.	Target_ID=21962at4891_1;TCS_ID=21962at4891_1|contig_2|+|44900
+contig_2	MetaEuk	mRNA	44901	45632	86	+	.	Target_ID=21962at4891_1;TCS_ID=21962at4891_1|contig_2|+|44900_mRNA;Parent=21962at4891_1|contig_2|+|44900
+contig_2	MetaEuk	exon	44901	45632	86	+	.	Target_ID=21962at4891_1;TCS_ID=21962at4891_1|contig_2|+|44900_exon_0;Parent=21962at4891_1|contig_2|+|44900_mRNA
+contig_2	MetaEuk	CDS	44901	45632	86	+	.	Target_ID=21962at4891_1;TCS_ID=21962at4891_1|contig_2|+|44900_CDS_0;Parent=21962at4891_1|contig_2|+|44900_exon_0
+scaffold_25	MetaEuk	gene	35546	36484	546	+	.	Target_ID=21962at4891_2;TCS_ID=21962at4891_2|scaffold_25|+|35545
+scaffold_25	MetaEuk	mRNA	35546	36484	546	+	.	Target_ID=21962at4891_2;TCS_ID=21962at4891_2|scaffold_25|+|35545_mRNA;Parent=21962at4891_2|scaffold_25|+|35545
+scaffold_25	MetaEuk	exon	35546	36484	546	+	.	Target_ID=21962at4891_2;TCS_ID=21962at4891_2|scaffold_25|+|35545_exon_0;Parent=21962at4891_2|scaffold_25|+|35545_mRNA
+scaffold_25	MetaEuk	CDS	35546	36484	546	+	.	Target_ID=21962at4891_2;TCS_ID=21962at4891_2|scaffold_25|+|35545_CDS_0;Parent=21962at4891_2|scaffold_25|+|35545_exon_0

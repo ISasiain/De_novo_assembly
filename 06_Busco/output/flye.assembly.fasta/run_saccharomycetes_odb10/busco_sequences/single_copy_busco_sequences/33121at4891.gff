@@ -1,0 +1,4 @@
+contig_5	MetaEuk	gene	701031	701513	240	-	.	Target_ID=33121at4891_1;TCS_ID=33121at4891_1|contig_5|-|701030
+contig_5	MetaEuk	mRNA	701031	701513	240	-	.	Target_ID=33121at4891_1;TCS_ID=33121at4891_1|contig_5|-|701030_mRNA;Parent=33121at4891_1|contig_5|-|701030
+contig_5	MetaEuk	exon	701031	701513	240	-	.	Target_ID=33121at4891_1;TCS_ID=33121at4891_1|contig_5|-|701030_exon_0;Parent=33121at4891_1|contig_5|-|701030_mRNA
+contig_5	MetaEuk	CDS	701031	701513	240	-	.	Target_ID=33121at4891_1;TCS_ID=33121at4891_1|contig_5|-|701030_CDS_0;Parent=33121at4891_1|contig_5|-|701030_exon_0

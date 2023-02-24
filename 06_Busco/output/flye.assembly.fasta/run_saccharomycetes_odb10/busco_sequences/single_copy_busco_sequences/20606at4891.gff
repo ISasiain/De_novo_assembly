@@ -1,0 +1,8 @@
+contig_21	MetaEuk	gene	506691	507917	663	-	.	Target_ID=20606at4891_2;TCS_ID=20606at4891_2|contig_21|-|506690
+contig_21	MetaEuk	mRNA	506691	507917	663	-	.	Target_ID=20606at4891_2;TCS_ID=20606at4891_2|contig_21|-|506690_mRNA;Parent=20606at4891_2|contig_21|-|506690
+contig_21	MetaEuk	exon	506691	507917	663	-	.	Target_ID=20606at4891_2;TCS_ID=20606at4891_2|contig_21|-|506690_exon_0;Parent=20606at4891_2|contig_21|-|506690_mRNA
+contig_21	MetaEuk	CDS	506691	507917	663	-	.	Target_ID=20606at4891_2;TCS_ID=20606at4891_2|contig_21|-|506690_CDS_0;Parent=20606at4891_2|contig_21|-|506690_exon_0
+contig_21	MetaEuk	gene	482211	483506	254	+	.	Target_ID=20606at4891_8;TCS_ID=20606at4891_8|contig_21|+|482210
+contig_21	MetaEuk	mRNA	482211	483506	254	+	.	Target_ID=20606at4891_8;TCS_ID=20606at4891_8|contig_21|+|482210_mRNA;Parent=20606at4891_8|contig_21|+|482210
+contig_21	MetaEuk	exon	482211	483506	254	+	.	Target_ID=20606at4891_8;TCS_ID=20606at4891_8|contig_21|+|482210_exon_0;Parent=20606at4891_8|contig_21|+|482210_mRNA
+contig_21	MetaEuk	CDS	482211	483506	254	+	.	Target_ID=20606at4891_8;TCS_ID=20606at4891_8|contig_21|+|482210_CDS_0;Parent=20606at4891_8|contig_21|+|482210_exon_0

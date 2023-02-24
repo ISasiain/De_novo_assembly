@@ -1,0 +1,16 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+contig_12:29694-30326 -            211 37889at4891          -            135   1.4e-35  119.3   2.3   1   3     0.085   2.3e+02   -1.1   0.0     2    25     4    30     3    35 0.63 -
+contig_12:29694-30326 -            211 37889at4891          -            135   1.4e-35  119.3   2.3   2   3   6.5e-13   1.7e-09   34.8   0.0     9    58    30    82    24    97 0.84 -
+contig_12:29694-30326 -            211 37889at4891          -            135   1.4e-35  119.3   2.3   3   3     1e-27   2.7e-24   82.8   0.9    54   135    98   203    83   203 0.87 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-52-2022/De_novo_assembly/06_Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/37889at4891.hmm
+# Target file:     /home/inf-52-2022/De_novo_assembly/06_Busco/output/flye.assembly.fasta/run_saccharomycetes_odb10/metaeuk_output/initial_results/flye.assembly.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/inf-52-2022/De_novo_assembly/06_Busco/output/flye.assembly.fasta/run_saccharomycetes_odb10/hmmer_output/initial_run_results/37889at4891.out --cpu 1 /home/inf-52-2022/De_novo_assembly/06_Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/37889at4891.hmm /home/inf-52-2022/De_novo_assembly/06_Busco/output/flye.assembly.fasta/run_saccharomycetes_odb10/metaeuk_output/initial_results/flye.assembly.fasta.modified.fas 
+# Current dir:     /home/inf-52-2022/De_novo_assembly/06_Busco
+# Date:            Fri Feb 24 09:20:56 2023
+# [ok]

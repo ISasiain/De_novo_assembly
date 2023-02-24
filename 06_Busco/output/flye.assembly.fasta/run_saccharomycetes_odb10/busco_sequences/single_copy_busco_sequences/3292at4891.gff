@@ -1,0 +1,16 @@
+contig_23	MetaEuk	gene	65869	67761	574	+	.	Target_ID=3292at4891_2;TCS_ID=3292at4891_2|contig_23|+|65868
+contig_23	MetaEuk	mRNA	65869	67761	574	+	.	Target_ID=3292at4891_2;TCS_ID=3292at4891_2|contig_23|+|65868_mRNA;Parent=3292at4891_2|contig_23|+|65868
+contig_23	MetaEuk	exon	65869	67761	574	+	.	Target_ID=3292at4891_2;TCS_ID=3292at4891_2|contig_23|+|65868_exon_0;Parent=3292at4891_2|contig_23|+|65868_mRNA
+contig_23	MetaEuk	CDS	65869	67761	574	+	.	Target_ID=3292at4891_2;TCS_ID=3292at4891_2|contig_23|+|65868_CDS_0;Parent=3292at4891_2|contig_23|+|65868_exon_0
+contig_4	MetaEuk	gene	171905	174130	1045	-	.	Target_ID=3292at4891_2;TCS_ID=3292at4891_2|contig_4|-|171904
+contig_4	MetaEuk	mRNA	171905	174130	1045	-	.	Target_ID=3292at4891_2;TCS_ID=3292at4891_2|contig_4|-|171904_mRNA;Parent=3292at4891_2|contig_4|-|171904
+contig_4	MetaEuk	exon	171905	174130	1045	-	.	Target_ID=3292at4891_2;TCS_ID=3292at4891_2|contig_4|-|171904_exon_0;Parent=3292at4891_2|contig_4|-|171904_mRNA
+contig_4	MetaEuk	CDS	171905	174130	1045	-	.	Target_ID=3292at4891_2;TCS_ID=3292at4891_2|contig_4|-|171904_CDS_0;Parent=3292at4891_2|contig_4|-|171904_exon_0
+contig_5	MetaEuk	gene	142151	143974	466	+	.	Target_ID=3292at4891_6;TCS_ID=3292at4891_6|contig_5|+|142150
+contig_5	MetaEuk	mRNA	142151	143974	466	+	.	Target_ID=3292at4891_6;TCS_ID=3292at4891_6|contig_5|+|142150_mRNA;Parent=3292at4891_6|contig_5|+|142150
+contig_5	MetaEuk	exon	142151	143974	466	+	.	Target_ID=3292at4891_6;TCS_ID=3292at4891_6|contig_5|+|142150_exon_0;Parent=3292at4891_6|contig_5|+|142150_mRNA
+contig_5	MetaEuk	CDS	142151	143974	466	+	.	Target_ID=3292at4891_6;TCS_ID=3292at4891_6|contig_5|+|142150_CDS_0;Parent=3292at4891_6|contig_5|+|142150_exon_0
+scaffold_25	MetaEuk	gene	852874	854718	473	-	.	Target_ID=3292at4891_3;TCS_ID=3292at4891_3|scaffold_25|-|852873
+scaffold_25	MetaEuk	mRNA	852874	854718	473	-	.	Target_ID=3292at4891_3;TCS_ID=3292at4891_3|scaffold_25|-|852873_mRNA;Parent=3292at4891_3|scaffold_25|-|852873
+scaffold_25	MetaEuk	exon	852874	854718	473	-	.	Target_ID=3292at4891_3;TCS_ID=3292at4891_3|scaffold_25|-|852873_exon_0;Parent=3292at4891_3|scaffold_25|-|852873_mRNA
+scaffold_25	MetaEuk	CDS	852874	854718	473	-	.	Target_ID=3292at4891_3;TCS_ID=3292at4891_3|scaffold_25|-|852873_CDS_0;Parent=3292at4891_3|scaffold_25|-|852873_exon_0
