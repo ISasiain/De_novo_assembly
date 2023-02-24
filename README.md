@@ -8,7 +8,7 @@
 
 ## PROCEDURE
 
-1. Create a conda environment for the workflow and download the required software.
+1. Create conda environments for the workflow and install the required software.
 
 ```bash
 conda create -n sra-tools;
@@ -35,8 +35,11 @@ conda install -c bioconda flye=2.9.1;
 conda create -n quast;
 conda activate quast;
 conda install -c bioconda quast=5.0.2;
-```
 
+conda create -n busco;
+conda activate busco; 
+conda install -c conda-forge -c bioconda busco=5.4.4;
+```
 
 2. Download the required data from NCBI Sequence Reads Archive and store the data into a the Data directory, which is excluded from the git repository.
 
@@ -104,4 +107,17 @@ mkdir ../05_Qast;
 cd ../05_Quast;
 conda activate quast;
 quast -o . -t 10 -r ../Data/sac_cer_reference.fna ../02_Hifiasm/hifiasm.asm.bp.p_ctg.fasta ../03_Canu/canu.contigs.fasta ../04_Flye/assembly.fasta;
+```
+
+9. Checking the quality of the assemblies using BUSCO.
+```
+mkdir ../06_Busco;
+cd ../06_Busco;
+conda activate busco;
+
+mkdir fasta_to_analyse;
+cp ../02_Hifiasm/hifiasm.asm.bp.p_ctg.fasta ../03_Canu/canu.contigs.fasta ../04_Flye/assembly.fasta ./fasta_to_analyse;
+mv ./fasta_to_analyse/assembly.fasta ./fasta_to_analyse/flye.assembly.fasta;
+
+busco -c 10 -i ./fasta_to_analyse -l saccharomycetes_odb10 -o output -m genome;
 ```
