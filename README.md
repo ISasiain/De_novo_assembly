@@ -10,6 +10,10 @@
 
 De novo assembly consists of the construction of a genome based only on the reads obtained in the sequencing, i.e. without a refernce genome. Several bioinformatic software have been created to perform this task, but their procedure, and therefore, output is different. The aim of this work is to analyse the difference in the performace of three de novo assemblers, Hifiasm (v0.18.7), Canu (v5.4.5) and Flye (v2.9.1) analysing the quality of the assembles of a *Saccharomyces cerevisiae* genome using Quast (v5.0,2) and BUSCO (v5.4.4).
 
+* The data analysed is available in the following link: [SRR13577846](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR13577846&display=metadata)
+
+* The reference genome used for the quality check is available in the following link: [Saccharomyces cerevisiae](https://www.ncbi.nlm.nih.gov/genome/?term=Saccharomyces+cerevisiae)
+
 ## PROCEDURE
 
 1. Create conda environments for the workflow and install the required software.
@@ -156,7 +160,7 @@ busco -c 10 -i ./fasta_to_analyse -l saccharomycetes_odb10 -o output -m genome;
 
 The results of using different assembly software show significant differences in the total number of contigs, as well as in the total length of all contigs and the N50 value. One possible reason for such differences is the removal of very short contigs, which some assemblers do. Based on the obtained results, it can be concluded that Canu removes the least short contigs while Flye removes the most. As a result, there is a difference of 1,000,000 bps in the total length of the assemblies performed by these software  and the N50 value is significantly higher in Flye, as it depends on the total length. The removal of short contigs by Hifiasm falls in the middle range between the two previously mentioned software.
 
-Regarding the BSUSCO statistics, all the assemblers produced exactly the same values.
+Regarding the BUSCO statistics, all the assemblers produced exactly the same values.
 
 | Assembler | Running time | Quast: Contigs | Quast:  Largest contig | Quast:  Total length | Quast: N50 | Quast: NG50 | Quast: Missasembles | BUSCO: Complete genes | BUSCO: Fragmented genes | BUSCO: Missing genes | BUSCO: Total genes |
 |-----------|--------------|---------|------------------------|----------------------|------------|-------------|---------------------|-----------------------|-------------------------|----------------------|--------------------|
